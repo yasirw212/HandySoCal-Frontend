@@ -67,7 +67,7 @@ React.useEffect(() => {
           <Route exact path='/services' element={<Services />}></Route>
           {/* Individual Service Pages */}
           {/* Home Improvement */}
-          <Route path='/services/HomeImprovement/3fa3bcc1-c4c9-4a0f-879a-85f073b7034a' element={<Kitchen />} ></Route>
+          {/* <Route path='/services/HomeImprovement/3fa3bcc1-c4c9-4a0f-879a-85f073b7034a' element={<Kitchen />} ></Route> */}
           <Route path='/services/HomeImprovement/4225baeb-5291-45ad-a683-6ed68df33322' element={<Bathroom />} ></Route>
           <Route path='/services/HomeImprovement/2534bb59-26ea-45de-a1a1-bd84b803a9f4' element={<Renovation />} ></Route>
           <Route path='/services/HomeImprovement/bc466ced-7865-4a97-b302-cc1e0683c378' element={<Masonry />} ></Route>
@@ -91,7 +91,7 @@ React.useEffect(() => {
           <Route path='/services/Electrical/4f306ac8-cf0f-4602-b132-3c7d494ce85a' element={<ElectricalFixtures />}></Route>
           <Route path='/services/Electrical/2ba20aeb-0f3f-4561-a9e4-a1cb49cd8960' element={<ElectricalFixtures />}></Route>
           <Route path='/services/Electrical/b12a254e-b2a6-476d-b94c-ddfff2118e05' element={<ElectricalFixtures />}></Route>
-          <Route path='/services/Electrical/8c2baee4-dabd-49a3-a69a-9411bf08132c' element={<Fans />}></Route>
+          {/* <Route path='/services/Electrical/8c2baee4-dabd-49a3-a69a-9411bf08132c' element={<Fans />}></Route> */}
           {/* Plumbing */}
           <Route path='/services/Plumbing/4553ef17-7c11-4cde-91c6-75cbd05e2c04' element={<Plumbing />}></Route>
           <Route path='/services/Plumbing/b6035639-a82a-43e0-9854-be92c07bb86f' element={<Sink />}></Route>
