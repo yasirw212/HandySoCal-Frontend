@@ -1,0 +1,14 @@
+.bathroom-container{
+   
+    /* background: green; */
+    min-height: 90vh;
+}
+
+.introduction-body{
+    margin-top: 1rem;
+}
+
+.bathroom-intro p{
+    min-width: 90%;
+}
+

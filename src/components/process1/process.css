@@ -1,0 +1,143 @@
+.process{
+    position: relative;
+    padding-bottom: 10vh;
+}
+.process-heading{
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+
+.step{
+    position: relative;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.step:nth-child(2),
+.step:nth-child(4),
+.step:nth-child(6){
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.step-img{
+    width: 50%;
+    max-height: 300px;
+}
+
+.step-img:nth-child(2),
+.step-img:nth-child(4),
+.step-img:nth-child(6){
+    position: absolute;
+    
+}
+
+.step-body{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background: #fff;
+    box-shadow: 0px 0px 5px #131313;
+    width: 60%;
+    padding: 20px;
+    min-height: 150px;
+    max-width: 700px;
+}
+
+.step:nth-child(2) div,
+.step:nth-child(4) div,
+.step:nth-child(6) div{
+    left: 20%;
+   
+}
+
+.step-body h4{
+    margin-bottom: .5rem;
+}
+
+.step-body li, .step-body p{
+    margin-top: .25rem;
+    line-height: 20px;
+    width: 90%;
+}
+
+.step-body li {
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .step-img{
+        width: 70%;
+    }
+
+    .step-body{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .process{
+
+    padding-bottom: 0vh;
+    }
+
+
+    .step{
+        margin-top: 0rem;
+    }
+
+    .step-img{
+        position: relative;
+        width: 100%;
+    }
+
+    .step-body{
+        width: 80%;
+        z-index: 2;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        font-size: .75rem;
+    }
+
+    .step:nth-child(2) div,
+    .step:nth-child(4) div,
+    .step:nth-child(6) div{
+    left: 0;
+    margin: 0 auto;
+   
+    }
+
+    .step-body li, .step-body p{
+        margin-top: .5rem;
+        line-height: 15px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .step-body{
+        width: 90%;
+        min-height: 100px;
+        top: 12.5%;
+    }
+
+    .step-body ul {
+        margin-top: .5rem;
+    }
+
+    .step-body ul li, .step-body p{
+        margin-top: .25rem;
+        line-height: 12px;
+        width: 95%;
+        font-size: 10px;
+    }
+
+    .step-body li {
+        margin-left: .5rem;
+    }
+}

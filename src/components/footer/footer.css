@@ -1,0 +1,22 @@
+
+.footer-container {
+    padding: 50px 40px;
+    background: #ECE9E6;
+    color: #1a2a6c;
+    text-align: center;
+    position: relative;
+}
+
+.trademark{
+    font-size: .75rem;
+}
+
+.footer-icons{
+    margin-top: 1rem;
+
+}
+
+.footer-logo img{
+    width: 100px;
+    margin-top: .5rem;
+}

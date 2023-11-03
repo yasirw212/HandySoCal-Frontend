@@ -1,0 +1,205 @@
+
+.contact-container{
+    position: fixed;
+    z-index: 99;
+    top: 5%;
+    left: 35%;
+    right: 25%;
+    max-width: 550px;
+    color: #1a2a6c;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    border: 1px solid #1a2a6c;
+    box-shadow: 0px 0px 10px #131313;
+    /* display: none; */
+}
+
+#contact-container{
+    display: none;
+}
+
+#contact-container.active{
+    display: block;
+}
+
+.close-btn{
+    position: absolute;
+    right: 10%;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    border: none;
+    background: #fff;
+    color: #1a2a6c;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    opacity: .75;
+}
+
+.contact-form,
+.thankyou-heading{
+    padding-top: 25px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form, .contact-form input{
+    font-size: .85rem;
+}
+
+.contact-form h4{
+    font-size: 1rem;
+}
+
+.contact-form label {
+    margin-top: 1rem;
+}
+
+.contact-form input,
+textarea{
+    margin-top: .5rem;
+    border-radius: 4px;
+    border: 1px solid #1a2a6c;
+    padding: 5px 10px;
+}
+
+.form-btn{
+    background: #1a2a6c;
+    color: #fff;
+    cursor: pointer;
+    margin:  0 auto;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 1rem;
+    opacity: .925;
+    max-width: 100%;
+    font-size: .8rem;
+}
+
+.form-btn:hover{
+    opacity: 1;
+}
+
+.divider{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.divider span {
+    background: #1a2a6c;
+    width: 60px;
+    height: 3px;
+    margin-left: .5rem;
+}
+
+.divider span:nth-child(1){
+    margin-right: .5rem;
+}
+
+.divider span:nth-child(2){
+    margin-left: .5rem;
+}
+
+.contact-information,
+.thankyou-body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-information {
+    /* padding-bottom: 1rem; */
+    font-size: .8rem;
+}
+
+.contact-information p,
+.contact-information img{
+    margin-top: 1rem;
+    
+}
+.contact-information img, .thankyou-body img {
+    align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .contact-container {
+        left: 10%;
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 550px)  {
+    .contact-container {
+        top: 5%;
+    }
+
+    .contact-form h4{
+        font-size: 1rem;
+    }
+
+    .contact-form {
+        font-size: .75rem;
+    }
+
+    .contact-form input{
+        padding: 5px;
+        font-size: .6rem;
+    }
+
+    .form-btn{
+    
+        max-width: 125px;
+    }
+
+    .thankyou-heading{
+        font-size: 1rem;
+    }
+
+    .thankyou-body{
+        font-size: .85rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .thankyou-heading{
+        font-size: .8rem;
+    }
+
+    .thankyou-body{
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .contact-container{
+        top: 2%;
+        padding: 15px 30px;
+    }
+
+    .contact-form,
+    .contact-information,
+    .form-btn{
+        font-size: .7rem;
+    }
+
+    .contact-form h4{
+        font-size: .75rem;
+    }
+
+    .contact-form label{
+        margin-top: .6rem;
+    }
+
+}
