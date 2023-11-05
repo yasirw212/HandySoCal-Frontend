@@ -24,7 +24,7 @@ const Renovation = () => {
                 <br />
                 <p>At Handy SoCal, we specialize in bringing new life to your space through comprehensive renovation services. Our goal is to transform your home or business, and we take pride in providing tailored solutions that cater to your unique needs. Whether it's a small makeover or a complete overhaul, our experienced team has the expertise to make your renovation dreams a reality.</p>
             </div>
-            <Form1 />
+            <Form1 name={'Renovation'} category={'Home Improvement'} />
             <Container1 aos={'fade-up'}>
                 <h3>Why Choose us For Your Renovation Project?</h3>
                 <ul className='container1-items'>
@@ -54,7 +54,7 @@ const Renovation = () => {
                         <li>Addressing any special requests or design considerations you may have for your renovation.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={constructionImg} aos={'fade-left'} >
+            <ProcessCard img={constructionImg} aos={'fade-right'} >
                     <h4>Precise Renovation: Meticulous and Comprehensive</h4>
                     <p>Our skilled craftsmen work diligently to complete your renovation project. This includes:</p>
                     <ul>
@@ -63,7 +63,7 @@ const Renovation = () => {
                         <li>Ensuring that the renovation meets your design and functional objectives.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={inspectImg} aos={'fade-right'} >
+            <ProcessCard img={inspectImg} aos={'fade-left'} >
                     <h4>Final Inspection: Ensuring Quality and Satisfaction</h4>
                     <p>Before considering the project complete, we conduct a thorough quality inspection. This includes:</p>
                     <ul>
@@ -72,7 +72,7 @@ const Renovation = () => {
                         <li>Ensuring that the renovation is ready for you to enjoy.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={walkThroughImg} aos={'fade-left'} >
+            <ProcessCard img={walkThroughImg} aos={'fade-right'} >
                 <h4>Client Walkthrough: Your Satisfaction is Our Priority</h4>
                 <p>We invite you to join us for a client walkthrough, during which you can inspect the completed renovation project and ensure it meets your expectations. This is your opportunity to:</p>
                 <ul>

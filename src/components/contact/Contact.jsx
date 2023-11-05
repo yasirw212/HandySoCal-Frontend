@@ -34,14 +34,6 @@ const Contact = ({toggleForm}) => {
 
     }
 
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault()
-    //     const formData = new FormData(document.getElementById('contact-form'))
-    //     const name = formData.get('client_name')
-    //     console.log(name)
-    //     setFormSubmitted(true)
-    // }
-
     const handleChange = (e) => {
         setClientData({...clientData, [e.target.name]: e.target.value})
     }

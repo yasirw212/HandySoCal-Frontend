@@ -22,16 +22,15 @@ const ElectricalFixtures = () => {
             <div className="display2-card">
                 <h1 className='display2-title'>Electrical Fixtures</h1>
                 <p>Whether you're looking to upgrade your lighting fixtures, outlets, or switches, our professional electrical fixture services are designed to enhance the safety, efficiency, and aesthetics of your space. Our skilled electricians are committed to ensuring your electrical fixtures are not only functional but also safe and compliant with industry standards.</p>
-                <Form2>
+                <Form2 name={'Electrical Fixtures'} category={'Electrical'}>
                     <div>
                         <label htmlFor="service">Service Needed:</label>
                         <select name="service" id="">
-                            <option value="switch">Light Switch Installation</option>
-                            <option value="outlet">Outlet Installation</option>
-                            <option value="lightingFixture">Lighting Fixture(s)</option>
+                            <option value="Light Switch Installation">Light Switch Installation</option>
+                            <option value="Outlet Installation">Outlet Installation</option>
+                            <option value="Light Fixture(s) Installation">Lighting Fixture(s)</option>
                         </select>
                     </div> 
-                    <textarea style={{gridColumn: '1 / 4'}} name="" id="" cols="30" rows="6" placeholder='Details about the job.'></textarea>
                 </Form2>
                 <img src={logoIcon} width={30} alt="" />
             </div>
@@ -40,27 +39,27 @@ const ElectricalFixtures = () => {
             <div data-aos={'fade-up'} className="display2-services">
                 <h2 className='display2-title'>Light Fixture Installation Services </h2>
                 <Container2 >
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Chandeliers</h3>
                         <div className="feature-bar"></div>
                         <p>Install elegant chandeliers to create a sophisticated focal point in your living and dining spaces.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Pendant Lights</h3>
                         <div className="feature-bar"></div>
                         <p>Add pendant lights for stylish and functional illumination over dining tables and kitchen islands.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Recessed Lighting</h3>
                         <div className="feature-bar"></div>
                         <p>Install recessed lights to provide even and unobtrusive illumination in any room.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Outdoor Lighting</h3>
                         <div className="feature-bar"></div>
                         <p>Illuminate your outdoor spaces with a range of outdoor fixtures for safety and ambiance.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Energy-Efficient Fixtures</h3>
                         <div className="feature-bar"></div>
                         <p>Upgrade to energy-efficient lighting fixtures for cost savings and environmental benefits.</p>
@@ -70,52 +69,52 @@ const ElectricalFixtures = () => {
             <div data-aos='fade-up' className="display2-services">
                 <h2 className='display2-title'>Light Switch Installation Services </h2>
                 <Container2 >
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Single-Pole Switches</h3>
                         <div className="feature-bar"></div>
                         <p>Install standard single-pole switches for basic on/off control of lights.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Three-Way Switches</h3>
                         <div className="feature-bar"></div>
                         <p>Set up three-way switches to control lights from two different locations.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Dimmer Switches</h3>
                         <div className="feature-bar"></div>
                         <p>Add dimmer switches to adjust lighting intensity and create the desired ambiance.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>GFCI Switches</h3>
                         <div className="feature-bar"></div>
                         <p>Enhance safety with Ground Fault Circuit Interrupter (GFCI) switches in areas prone to moisture.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Toggle and Decorator Switches</h3>
                         <div className="feature-bar"></div>
                         <p>Toggle and Decorator Switches</p>
                     </div>
                 </Container2>
             </div>
-            <div data-aos={'fade-up'} className="display2-services">
-                <h2 className='display2-title'>Outlet Installation Services </h2>
+            <div className="display2-services">
+                <h2 data-aos={'fade-up'} className='display2-title'>Outlet Installation Services </h2>
                 <Container2>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Standard Outlets</h3>
                         <div className="feature-bar"></div>
                         <p>nstall or replace standard electrical outlets for general use.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>GFCI Outlet</h3>
                         <div className="feature-bar"></div>
                         <p>Enhance safety with Ground Fault Circuit Interrupter (GFCI) outlets in areas prone to moisture.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>USB Outlets</h3>
                         <div className="feature-bar"></div>
                         <p>Upgrade your outlets with built-in USB ports for charging convenience.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Dedicated Circuits</h3>
                         <div className="feature-bar"></div>
                         <p>Install dedicated circuits for appliances and heavy-duty equipment.</p>

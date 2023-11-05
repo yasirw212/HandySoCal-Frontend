@@ -23,7 +23,7 @@ const Masonry = () => {
                 <h2>Masonry Services</h2>
                 <p className="introduction-body">With our years of experience and skilled craftsmen, we bring your vision to life through a wide range of masonry projects. Whether you need brickwork, stone masonry, or concrete services, we have the expertise to deliver top-quality results. Explore the world of masonry with us.</p>
             </div>
-            <Form1 />
+            <Form1 name={'Masonry'} category={'Home Improvement'} />
             <Container1 aos={'fade-up'} >
                 <h3>Why Choose Us for Your Masonry Projects? </h3>
                 <ul className="container1-items">
@@ -45,7 +45,7 @@ const Masonry = () => {
                         <li>Discuss budget considerations and any constraints to create a realistic plan.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={materialImg} aos={'fade-right'} >
+            <ProcessCard img={materialImg} aos={'fade-left'} >
                     <h4>Material Selection: Quality and Style</h4>
                     <p>Based on our consultation and design phase, we create a customized plan for your masonry project. This includes:</p>
                     <ul>
@@ -54,7 +54,7 @@ const Masonry = () => {
                         <li>Addressing any special requests or design considerations you may have for your masonry.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={masonryImg} aos={'fade-left'} >
+            <ProcessCard img={masonryImg} aos={'fade-right'} >
                     <h4>Precise Installation, Repair, or Restoration: Meticulous and Comprehensive</h4>
                     <p>Our skilled team works diligently to complete your masonry project. This includes:</p>
                     <ul>
@@ -72,7 +72,7 @@ const Masonry = () => {
                         <li>Ensuring that historical and architectural accuracy is maintained in restoration projects.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={walkThroughImg} aos={'fade-left'} >
+            <ProcessCard img={walkThroughImg} aos={'fade-right'} >
                 <h4>Client Walkthrough: Your Satisfaction is Our Priority</h4>
                 <p>We invite you to join us for a client walkthrough, during which you can inspect the project. This is your opportunity to inspect the work and ensure it aligns with your vision. We'll address any questions or concerns you have and make any necessary adjustments.</p>
             </ProcessCard>

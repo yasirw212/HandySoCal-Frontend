@@ -19,9 +19,8 @@ main {
   position: relative;
   bottom: 10vh;
   top: 0vh;
+  overflow: hidden;
 }
-
-
 
 .display1-body{
   display: grid;
@@ -39,6 +38,7 @@ main {
 
 .display2-container{
   color: #283c86;
+  overflow: hidden;
 }
 
 .display2-card{
@@ -87,6 +87,11 @@ main {
   margin-top: 3rem;
 }
 
+.display2-services h2{
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
 .display2-title{
   text-align: center;
   margin-bottom: 1rem;
@@ -112,8 +117,9 @@ main {
 .benefits{
   max-width: 900px;
   width: 90%;
-  margin: 2rem auto 0 auto;
+  margin: 1.5rem auto 0 auto;
   text-align: center;
+  
 }
 
 .benefits-items{
@@ -137,10 +143,24 @@ span{
   font-weight: 700;
 }
 
+select, option{
+  border: 1px solid #1a2a6c;
+  padding: 0 1rem;
+  border-radius: 0%;
+}
+
 @media only screen and (max-width: 900px){
   .display1-body{
       display: grid;
       grid-template: auto auto / 40% 40%;
+  }
+
+  .display2-card{
+    width: 90%;
+  }
+
+  .display2-card p{
+    width: 95%;
   }
 }
 
@@ -174,8 +194,16 @@ span{
     max-width: 80%;
   }
 
+  .display2-card{
+    width: 95%;
+  }
+
   .display2-card p {
     line-height: 16px;
+  }
+
+  .benefits{
+    padding: 15px 0 15px 0;
   }
 
   .benefits h3 {

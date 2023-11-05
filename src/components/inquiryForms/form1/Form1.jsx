@@ -6,10 +6,10 @@ import {AiOutlineClose} from "react-icons/ai"
 import emailjs from "@emailjs/browser"
 import logoIcon from '../../../assets/logo-icon.png'
 
-const Form1 = (props) => {
+const Form1 = ({children, aos, name, category}) => {
   const [submitted, setSubmitted] = React.useState(false)
   const [clientData, setClientData] = React.useState({client_name: '', client_email: '', client_phone: '', message: ''})
-  
+  const form = React.useRef()
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -26,9 +26,21 @@ const handleChange = (e) => {
   setClientData({...clientData, [e.target.name]: e.target.value})
 }
 
-  return (
+const sendEmail = (e) => {
+  e.preventDefault();
 
-    // {
+  emailjs.sendForm('service_qimqb68', 'template_9f4rl6c', form.current, 'QUk80EdPABNDbOcof')
+  .then((result) => {
+      console.log(result.text)
+      const formData = new FormData(document.getElementById('form1'))
+      setSubmitted(true)
+  }, (error) => {
+      console.log(error.text);
+  });
+
+}
+
+  return (
       submitted ?
       <div  className="contact-container">
                 <button id='close' onClick={clear} className='close-btn'><AiOutlineClose  /></button>
@@ -53,29 +65,28 @@ const handleChange = (e) => {
                 </div>
             </div> :
 
-            <form onSubmit={handleSubmit} data-aos={props.aos} className='form1' id='form1' action="">
-    <h3>Take the first step</h3>
-    <label htmlFor="name">Your name </label> 
-    <input onChange={handleChange} id='name' name='name' type="text" />
-    <br />
-    <label htmlFor="email">Email </label>
-    <input onChange={handleChange} id='email' name='email' type="email" />
-    <br />
-    <label htmlFor="phone">Phone</label>
-    <input onChange={handleChange} id='phone' name='phone' type="text" />
-    <br />
-    <label htmlFor="zipcode">Zip Code</label>
-    <input onChange={handleChange} id='zipcode' name='zipcode' type="text" />
-    <br />
-    {props.children}
-    <br />
-    <textarea onChange={handleChange} name="" id="" cols="30" rows="5" placeholder='Details about the job...'></textarea>
-    <br />
-    <button className='form1-btn' type='submit'>Get In Touch</button>
-</form>
-          
-    // }
-    
+            <form ref={form}  onSubmit={sendEmail} data-aos={aos} className='form1' id='form1' action="">
+                <h3>Take the first step</h3>
+                <input name='service_name' hidden value={name} type="text" />
+                <input required name='service_category' hidden value={category} type="text" />
+                <label htmlFor="client_name">Your name </label> 
+                <input required onChange={handleChange} id='name' name='client_name' type="text" />
+                <br />
+                <label htmlFor="client_email">Email </label>
+                <input required onChange={handleChange} id='email' name='client_email' type="email" />
+                <br />
+                <label htmlFor="client_phone">Phone</label>
+                <input required onChange={handleChange} id='phone' name='client_phone' type="text" />
+                <br />
+                <label htmlFor="zipcode">Zip Code</label>
+                <input required onChange={handleChange} id='zipcode' name='client_zipcode' type="text" />
+                <br />
+                {children}
+                <br />
+                <textarea required onChange={handleChange} name="message" id="" cols="30" rows="5" placeholder='Details about the job...'></textarea>
+                <br />
+                <button className='form1-btn' type='submit'>Get In Touch</button>
+            </form>
   )
 }
 

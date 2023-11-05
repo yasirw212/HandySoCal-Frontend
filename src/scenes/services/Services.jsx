@@ -99,37 +99,37 @@ const Services = () => {
             <div className="categories">
                 
                 <div id="homeImprovement" className="category">
-                    <h3  className="category-name">Home Improvement</h3>
+                    <h3 className="category-name">Home Improvement</h3>
                     <div className="category-services">
                         {homeImprovement.map(service => <div className='category-service'><ServiceCard service={service} category={service.categories.name.replace(/\s+/g, '')} id={service.id} name={service.name} img={service.photos} /></div>)}
                     </div>
                 </div>
                 <div id='assembly' className="category">
-                    <h3  className="category-name">Assembly</h3>
+                    <h3 data-aos='fade-up'  className="category-name">Assembly</h3>
                     <div className="category-services">
                         {assembly.map(service => <ServiceCard id={service.id} category={service.categories.name.replace(/\s+/g, '')} name={service.name} img={service.photos} />)}
                     </div>
                 </div>
                 <div id='electrical' className="category">
-                    <h3 className="category-name">Electrical</h3>
+                    <h3 data-aos='fade-up' className="category-name">Electrical</h3>
                     <div className="category-services">
                         {electrical.map(service => <ServiceCard id={service.id} category={service.categories.name.replace(/\s+/g, '')} name={service.name} img={service.photos} />)}
                     </div>
                 </div>
                 <div id='plumbing' className="category">
-                    <h3 className="category-name">Plumbing</h3>
+                    <h3 data-aos='fade-up' className="category-name">Plumbing</h3>
                     <div className="category-services">
                         {plumbing.map(service => <ServiceCard id={service.id} category={service.categories.name.replace(/\s+/g, '')} name={service.name} img={service.photos} />)}
                     </div>
                 </div>
                 <div id='cleaning' className="category">
-                    <h3 className="category-name">Cleaning</h3>
+                    <h3 data-aos='fade-up' className="category-name">Cleaning</h3>
                     <div className="category-services">
                         {cleaning.map(service => <ServiceCard id={service.id} category={service.categories.name.replace(/\s+/g, '')} name={service.name} img={service.photos} />)}
                     </div>
                 </div>
                 <div id='painting' className="category">
-                    <h3 className="category-name">Painting</h3>
+                    <h3 data-aos='fade-up' className="category-name">Painting</h3>
                     <div className="category-services">
                         {painting.map(service => <ServiceCard id={service.id} category={service.categories.name.replace(/\s+/g, '')} name={service.name} img={service.photos} />)}
                     </div>

@@ -23,12 +23,12 @@ const Sink = () => {
                 <br />
                 <p>Sinks are essential for everyday activities, from cooking in the kitchen to washing hands in the bathroom. Our professional sink services are designed to ensure that your sinks are functioning perfectly and that any issues are addressed promptly.</p>
             </div>
-            <Form1 >
+            <Form1 name={'Sink'} category={'Plumbing'} >
                 <label htmlFor="service">Service Required:</label>
                 <select name="service" id="">
-                    <option value="installation">Installation</option>
-                    <option value="replacement">Replacement</option>
-                    <option value="repair">Repair</option>
+                    <option value="Installation">Installation</option>
+                    <option value="Replacement">Replacement</option>
+                    <option value="Repair">Repair</option>
                 </select>
             </Form1>
             <Container1 aos={'fade-up'}>

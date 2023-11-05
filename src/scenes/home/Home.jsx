@@ -44,14 +44,14 @@ const Home = () => {
             </div>
         </div>
         <div className="guarantees-container">
-                <div data-aos='fade-in' className="stars">
+                <div data-aos='fade-right' className="stars">
                     <GrStar className='star' />
                     <GrStar className='star' />
                     <GrStar className='star' />
                     <GrStar className='star' />
                     <GrStar className='star' />
                 </div>
-                <div data-aos='fade-in' className="guarantees-heading">
+                <div data-aos='fade-right' className="guarantees-heading">
                     <h2>Your Satisfaction Guaranteed.</h2>
                 </div>
                 <div data-aos='fade-right' className="guarantees-body">

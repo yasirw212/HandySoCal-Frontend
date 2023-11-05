@@ -31,14 +31,14 @@ const Bathroom = () => {
 
     return (
         <div className="display1-container bathroom-container">
-            <Hero img={bathroomImg} title={'Bathroom Remodels'} />
+            <Hero img={bathroomImg} title={'Bathroom Remodels.'} />
             <div className="display1-body bathroom-body">
                 <div  className="bathroom-intro">
                     <h2 className='bathroom-title'>Transform Your Bathroom</h2>
                     <p className='container1-body'>At Handy SoCal, we take pride in transforming bathrooms into elegant, functional, and rejuvenating spaces. Our bathroom remodeling services in Southern California are designed to enhance your daily routine and add value to your home. Whether you're considering a small update or a complete bathroom makeover, we have the expertise to bring your vision to life.</p>
                     
                 </div>
-                <Form1 />
+                <Form1 name={'Bathroom Remodeling'} category={'Home Improvement'} />
                 <Container1 aos={'fade-up'}>
                     <h3>Remodeling Services: </h3>
                     <ul className="container1-items">

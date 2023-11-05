@@ -13,10 +13,19 @@
 
 .footer-icons{
     margin-top: 1rem;
-
+    cursor: pointer;
 }
 
 .footer-logo img{
     width: 100px;
     margin-top: .5rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .footer-icons{
+        font-size: .85rem;
+    }
+    .footer-logo img {
+        width: 75px;
+    }
 }

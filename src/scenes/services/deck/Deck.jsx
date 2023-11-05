@@ -17,17 +17,17 @@ import completeImg from '../../../assets/complete.jpg'
 const Deck = () => {
   return (
     <div className='display1-container'>
-        <Hero img={deckImg} title={'Deck Repair/Installation'} />
+        <Hero img={deckImg} title={'Deck Repair/Installation.'} />
         <div className="display1-body">
             <div className="deck-intro">
                 <h2>Why Choose Us for Your Deck Needs?</h2>
                 <p className='introduction-body'>We are your go-to experts for all things related to decks. Whether your deck needs repair, renovation, or a fresh build, we have the skills and experience to deliver beautiful, functional outdoor spaces that enhance your home. Explore our comprehensive deck services:</p>
             </div>
-            <Form1 aos='fade-up' >
+            <Form1 name={'Deck Installation/Repair'} category={'Home Improvement'} aos='fade-up' >
                 <label htmlFor="service">installation or repair?</label>
                 <select name="service" id="service">
-                    <option value="installation">Installation</option>
-                    <option value="repair">Repair</option>
+                    <option value="Installation">Installation</option>
+                    <option value="Repair">Repair</option>
                 </select>
             </Form1>
             <Container1 aos={'fade-up'}>

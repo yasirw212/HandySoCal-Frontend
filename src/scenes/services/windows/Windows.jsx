@@ -22,18 +22,18 @@ const Windows = () => {
             <div className="display2-card">
                 <h1 className='display2-title'>Windows</h1>
                 <p>We understand the vital role windows play in your home's appearance, energy efficiency, and comfort. Our window installation services are designed to enhance your property with high-quality windows that are both functional and visually appealing.</p>
-                <Form2>
+                <Form2 name={'Window Installation'}>
                     <div>
-                        <label htmlFor="walls">Windows</label>
-                        <select name="walls" id="">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5+">5+</option>
+                        <label htmlFor="service">Windows</label>
+                        <select name="service" id="">
+                            <option value="Windows needed: 1">1</option>
+                            <option value="Windows needed: 2">2</option>
+                            <option value="Windows needed: 3">3</option>
+                            <option value="Windows needed: 4">4</option>
+                            <option value="Windows Needed: 5+">5+</option>
                         </select>
                     </div> 
-                </Form2>
+                </Form2 >
                 <img src={logoIcon} width={30} alt="" />
             </div>
             
@@ -42,32 +42,32 @@ const Windows = () => {
             <div data-aos={'fade-up'} className="display2-services">
                 <h2 className='display2-title'>Our Window Installation Services </h2>
                 <Container2 >
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>New Window Installation</h3>
                         <div className="feature-bar"></div>
                         <p>Install brand-new windows to improve the energy efficiency, security, and aesthetic appeal of your property.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Window Replacement</h3>
                         <div className="feature-bar"></div>
                         <p>Replace old, damaged, or inefficient windows with new ones to enhance comfort and reduce energy costs.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Custom Window Installation</h3>
                         <div className="feature-bar"></div>
                         <p>Choose from various window styles, including double-hung, casement, sliding, bay, bow, or custom designs.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Window Frames and Trims</h3>
                         <div className="feature-bar"></div>
                         <p>Enhance the look of your windows with stylish frames and trims that match your home's design.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Window Glass and Glazing</h3>
                         <div className="feature-bar"></div>
                         <p>Select the appropriate type of glass and glazing to optimize energy efficiency, noise reduction, and UV protection.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Security Features</h3>
                         <div className="feature-bar"></div>
                         <p>Improve home security with windows that have built-in security features and locking mechanisms.</p>

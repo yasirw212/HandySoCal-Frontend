@@ -24,7 +24,7 @@ const Plumbing = () => {
                 <br />
                 <p>We provide a full spectrum of plumbing services to ensure the functionality and safety of your home or business. With our experienced plumbers and commitment to quality, we offer solutions that address plumbing issues, upgrades, and installations. Explore our comprehensive plumbing services.</p>
             </div>
-            <Form1 />
+            <Form1 name={'General Services'} category={'Plumbing'} />
             <Container1 aos={'fade-up'}>
                 <h3>Plumbing Services:</h3>
                 <ul className="container1-items">
@@ -49,7 +49,7 @@ const Plumbing = () => {
                         <li>Provide options for fixtures, materials, and any necessary upgrades.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={bluePrintImg} aos={'fade-right'} >
+            <ProcessCard img={bluePrintImg} aos={'fade-left'} >
                     <h4>Customized Plan and Material Selection: Tailoring the Solution</h4>
                     <p>Based on our consultation and assessment, we create a customized plan for your plumbing project. This includes:</p>
                     <ul>
@@ -58,7 +58,7 @@ const Plumbing = () => {
                         <li>Addressing any special requests or design considerations you may have for your plumbing project.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={constructionImg} aos={'fade-left'}>
+            <ProcessCard img={constructionImg} aos={'fade-right'}>
                     <h4>Precise Installation, Repair, or Maintenance: Meticulous and Comprehensive</h4>
                     <p>Our skilled plumbers work diligently to complete your plumbing project. This includes:</p>
                     <ul>
@@ -67,7 +67,7 @@ const Plumbing = () => {
                         <li>Ensuring that plumbing systems meet your design and functional objectives.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={inspectImg} aos={'fade-right'}>
+            <ProcessCard img={inspectImg} aos={'fade-left'}>
                     <h4> Final Inspection: Ensuring Excellence</h4>
                     <p>Before considering the project complete, we conduct a thorough quality inspection. This includes:</p>
                     <ul>
@@ -76,7 +76,7 @@ const Plumbing = () => {
                         <li>Ensuring that all plumbing components operate correctly.</li>
                     </ul>
             </ProcessCard>
-            <ProcessCard img={walkThroughImg} aos={'fade-left'} >
+            <ProcessCard img={walkThroughImg} aos={'fade-right'} >
                 <h4>Client Walkthrough: Your Satisfaction is Our Priority</h4>
                 <p>We invite you to join us for a client walkthrough, during which you can inspect the completed plumbing project and ensure it meets your expectations. This is your opportunity to:</p>
                 <ul>

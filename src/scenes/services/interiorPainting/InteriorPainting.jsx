@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero2 from '../../../components/hero2/Hero2'
-import interiorPaintingImg from '../../../assets/interiorpaint.jpg'
 import logoIcon from '../../../assets/logo-icon.png'
 import Process1 from '../../../components/process1/Process1'
 import ProcessCard from '../../../components/process1/processCard/ProcessCard'
@@ -8,32 +7,32 @@ import consultationImg from '../../../assets/consultation.jpg'
 import bluePrintImg from '../../../assets/blueprint.jpg'
 import inspectImg from '../../../assets/inspect.jpg'
 import walkThroughImg from '../../../assets/walkthrough.jpg'
+import interiorPaintImg from '../../../assets/interiorpaint.jpg'
 import Container2 from '../../../components/templates/container2/Container2'
 import Form2 from '../../../components/inquiryForms/form2/Form2'
 
 const InteriorPainting = () => {
   return (
     <div className='display2-container'>
-        <Hero2 img={interiorPaintingImg} />
+        <Hero2 img={interiorPaintImg} />
         <div className="display2-intro">
             <div className="display2-card">
                 <h1 className='display2-title'>Interior Home Painting Services</h1>
                 <p>A fresh coat of paint can completely transform the look and feel of your home's interior. Whether you want to update the entire house or just a few rooms, our professional interior house painting services are designed to help you create a space that reflects your style and personality. Our skilled painters are dedicated to bringing your vision to life.</p>
-                <Form2>
+                <Form2 name={'Interior Painting'} category={'Painting'}>
                     <div>
                         <label htmlFor="service">Service Needed:</label>
                         <select name="service" id="">
-                            <option value="wholeHouse">Whole House</option>
-                            <option value="room">Room Painting</option>
-                            <option value="cabinet">Cabinet Painting</option>
-                            <option value="bathroom">Bathroom Painting</option>
+                            <option value="Complete Interior">Whole House</option>
+                            <option value="Room Painting">Room Painting</option>
+                            <option value="Cabinet Painting">Cabinet Painting</option>
+                            <option value="Bathroom Painting">Bathroom Painting</option>
                             <option value="accent">Accent Wall Painting</option>
-                            <option value="ceiling">Ceiling Painting</option>
-                            <option value="baseboard">Baseboard & Trim Painting</option>
-                            <option value="wallpaper">Wallpaper Removal & Painting</option>
+                            <option value="Ceiling Painting">Ceiling Painting</option>
+                            <option value="Baseboard & Trim Painting">Baseboard & Trim Painting</option>
+                            <option value="Wallpaper Removal & Painting">Wallpaper Removal & Painting</option>
                         </select>
                     </div> 
-                    <textarea style={{gridColumn: '1 / 4'}} name="" id="" cols="30" rows="6" placeholder='Details about the job.'></textarea>
                 </Form2>
                 <img src={logoIcon} width={30} alt="" />
             </div>
@@ -42,42 +41,42 @@ const InteriorPainting = () => {
             <div data-aos='fade-up' className="display2-services">
                 <h2 className='display2-title'>Our Home Exterior Painting Services </h2>
                 <Container2>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Whole House Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Transform your entire home with a fresh coat of paint in your chosen color palette.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Room Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Update individual rooms to reflect your style and preferences.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Kitchen Cabinet Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Give your kitchen a modern facelift by repainting your cabinets.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Bathroom Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Refresh the look and feel of your bathroom with new paint.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Accent Wall Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Create focal points in your rooms with stylish accent walls.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Ceiling Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Paint or refresh ceiling surfaces for a clean and polished appearance.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Baseboard and Trim Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Revitalize baseboards and trim for a finished look.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Wallpaper Removal and Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Remove outdated wallpaper and replace it with a fresh coat of paint.</p>

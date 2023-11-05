@@ -23,7 +23,7 @@ const Patio = () => {
                 <h2>Why Choose Us for Your Patio Project?</h2>
                 <p>We are your trusted partner in creating outdoor spaces that elevate your lifestyle. Our patio build and installation services are designed to enhance your property, offering a perfect blend of aesthetics and functionality. Explore the possibilities of a beautiful and inviting outdoor area with our comprehensive services:</p>
             </div>
-            <Form1 />
+            <Form1 name={'Patio Build/Installation'} category={'Home Improvement'} />
             <Container1 aos={'fade-up'}>
                 <h3>Our Patio Services:</h3>
                 <ul className="container1-items">
@@ -56,7 +56,7 @@ const Patio = () => {
                     <li>Addressing any special requests or design considerations you may have for your patio.</li>
                 </ul>
             </ProcessCard>
-            <ProcessCard img={constructionImg} aos={'fade-left'}>
+            <ProcessCard img={constructionImg} aos={'fade-right'}>
                 <h4> Patio Construction: Precision and Craftsmanship</h4>
                 <p>Our skilled craftsmen work diligently to complete your patio project. This includes:</p>
                 <ul>
@@ -65,7 +65,7 @@ const Patio = () => {
                     <li>Ensuring that the patio meets your design and functional objectives.</li>
                 </ul>
             </ProcessCard>
-            <ProcessCard img={inspectImg} aos={'fade-right'}>
+            <ProcessCard img={inspectImg} aos={'fade-left'}>
                 <h4>Final Inspection: Ensuring Excellence</h4>
                 <p>Before we consider the project complete, our team conducts a comprehensive final inspection. This step includes:</p>
                 <ul>
@@ -74,7 +74,7 @@ const Patio = () => {
                     <li>Ensuring that additional features like fire pits and kitchens operate correctly.</li>
                 </ul>
             </ProcessCard>
-            <ProcessCard img={walkThroughImg} aos={'fade-left'}>
+            <ProcessCard img={walkThroughImg} aos={'fade-right'}>
                 <h4>Client Walkthrough: Your Satisfaction Matters</h4>
                 <p>We invite you to join us for a client walkthrough, during which you can inspect the patio. This is your opportunity to:</p>
                 <ul>

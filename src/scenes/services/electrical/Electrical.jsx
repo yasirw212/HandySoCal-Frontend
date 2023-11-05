@@ -22,7 +22,7 @@ const Electrical = () => {
                 <h2>Why Choose Us for Your Electrical Needs?</h2>
                 <p className='container1-body'>We offer a wide range of electrical services to meet your home and business needs. With our experienced and licensed electricians, we provide solutions that prioritize safety, efficiency, and compliance with industry standards. Explore our comprehensive electrical services:</p>
             </div>
-            <Form1 />
+            <Form1 name={'General Services'} category={'Electrical'} />
             <Container1 aos={'fade-up'}>
                 <h3>Electrical Services:</h3>
                 <ul className="container1-items">

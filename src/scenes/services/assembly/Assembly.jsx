@@ -11,15 +11,16 @@ import Process1 from '../../../components/process1/Process1'
 import ProcessCard from '../../../components/process1/processCard/ProcessCard'
 
 const Assembly = () => {
-  return (
+  
+    return (
     <div className='display1-container'>
-        <Hero img={assemblyImg} title={'Furniture Assembly'} />
+        <Hero img={assemblyImg} title={'Furniture Assembly.'} />
         <div className="display1-body">
             <div className="carpentry-intro">
                 <h2>Why Choose Us for Your Assembly Needs?</h2>
                 <p>Whether you have just moved into a new home, relocated your office, or purchased new furniture, our professional furniture assembly services are here to make your life easier. We take the hassle out of assembly, ensuring that your furniture is perfectly assembled, sturdy, and ready to use.</p>
             </div>
-            <Form1></Form1>
+            <Form1 name={'Furniture Assembly'} category={'Assembly'} ></Form1>
             <Container1 aos={'fade-up'}>
                 <h3>Home Assembly Services:</h3>
                 <ul className="container1-items">
@@ -63,7 +64,7 @@ const Assembly = () => {
                     <li>Properly assembling the item while following manufacturer guidelines and best practices.</li>
                 </ul>
             </ProcessCard>
-            <ProcessCard img={inspectImg} aos={'fade-left'}>
+            <ProcessCard img={inspectImg} aos={'fade-right'}>
                 <h4>Quality Inspection: Ensuring Excellence</h4>
                 <p>Before considering the assembly project complete, we conduct a thorough quality inspection. This includes:</p>
                 <ul>
@@ -72,7 +73,7 @@ const Assembly = () => {
                     <li>Verifying that the item has been assembled correctly and is ready for use.</li>
                 </ul>
             </ProcessCard>
-            <ProcessCard img={walkThroughImg} aos={'fade-right'}>
+            <ProcessCard img={walkThroughImg} aos={'fade-left'}>
                 <h4>Client Walkthrough: Your Satisfaction Matters</h4>
                 <p>We invite you to join us for a client walkthrough, during which you can inspect the assembled items and ensure they meet your expectations. This is your opportunity to:</p>
                 <ul>

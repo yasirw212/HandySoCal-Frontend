@@ -24,7 +24,7 @@ const PowerWash = () => {
                 <br />
                 <p className="introduction-body">We offer professional power washing services to rejuvenate the appearance of your property. With our skilled team and top-of-the-line equipment, we can remove dirt, grime, mold, and other contaminants, leaving surfaces looking fresh and revitalized. Explore the benefits and details of our power washing services:</p>
             </div>
-            <Form1 />
+            <Form1 name={'Power Washing'} category={'Cleaning'} />
             <Container1 aos={'fade-up'}>
                 <h4>Our Power Washing Services:</h4>
                 <ul className="container1-items">

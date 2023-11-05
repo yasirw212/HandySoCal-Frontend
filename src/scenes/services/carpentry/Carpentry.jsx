@@ -23,7 +23,7 @@ const Carpentry = () => {
                 <h2>Why Choose Us for Your Carpentry Needs?</h2>
                 <p>We are the carpentry experts you can rely on for all your woodworking needs. Our experienced carpenters are skilled in crafting custom pieces, repairing furniture, and enhancing the aesthetics and functionality of your space. Explore our comprehensive carpentry services:</p>
             </div>
-            <Form1 />
+            <Form1 name={'Carpentry'} category={'Home Improvement'} />
             <Container1>
                 <h3>Carpentry Services:</h3>
                 <ul className="container1-items">

@@ -22,12 +22,12 @@ const Toilet = () => {
             <div className="display2-card">
                 <h1 className='display2-title'>Toilet Installation & Replacement</h1>
                 <p>Whether you're looking to replace an old, inefficient toilet or need a new installation, our professional toilet replacement and installation services are designed to ensure that you have a reliable, water-efficient, and well-functioning toilet. Our skilled plumbers are committed to providing top-quality toilet solutions that enhance your bathroom's performance and aesthetics.</p>
-                <Form2>
+                <Form2 name={'Toilet Services'} category={'Plumbing'}>
                     <div>
-                        <label htmlFor="walls">Service Needed:</label>
-                        <select name="walls" id="">
-                            <option value="installation">Installation</option>
-                            <option value="replacement">Replacement</option>
+                        <label htmlFor="service">Service Needed:</label>
+                        <select name="service" id="">
+                            <option value="Installation">Installation</option>
+                            <option value="Replacement">Replacement</option>
                         </select>
                     </div> 
                 </Form2>
@@ -39,32 +39,32 @@ const Toilet = () => {
             <div className="display2-services">
                 <h2 className='display2-title'>Toilet Installation Services </h2>
                 <Container2>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Floor-Mounted Toilets</h3>
                         <div className="feature-bar"></div>
                         <p>Install floor-mounted toilets for a classic and space-efficient solution.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Wall-Mounted Toilets</h3>
                         <div className="feature-bar"></div>
                         <p>Opt for wall-mounted toilets to create a sleek, contemporary bathroom look.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Bidet Toilets</h3>
                         <div className="feature-bar"></div>
                         <p>We install bidet toilets to enhance hygiene and comfort in your bathroom.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Smart Toilets</h3>
                         <div className="feature-bar"></div>
                         <p>Upgrade to smart toilets with advanced features like heated seats and built-in bidets.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Commercial Toilets</h3>
                         <div className="feature-bar"></div>
                         <p>We provide installation services for commercial toilets in business or office settings.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Security Features</h3>
                         <div className="feature-bar"></div>
                         <p>Improve home security with windows that have built-in security features and locking mechanisms.</p>

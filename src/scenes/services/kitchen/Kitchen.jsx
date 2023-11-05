@@ -30,14 +30,13 @@ const Kitchen = () => {
 
   return (
     <div className='display1-container'>
-        <Hero img={kitchenImg} title={'Kitchen Remodels'} />
+        <Hero img={kitchenImg} title={'Kitchen Remodels.'} />
         <div className="display1-body">
                 <div  className="kitchen-intro">
                     <h2 className='kitchen-title'>Transform Your Kitchen</h2>
                     <p className='introduction-body'>Handy SoCal, where kitchen dreams come to life. Our kitchen remodeling services in the Southern California area are a testament to our commitment to transforming kitchens into beautiful and functional spaces. Whether you're looking for a minor update or a complete kitchen makeover, we have the expertise to turn your vision into reality.</p>
-                    
                 </div>
-                <Form1 />
+                <Form1 name={'Kitchen Remodeeling'} category={'Home Improvement'} />
                 <Container1 aos={'fade-up'}>
                     <h3>Our Remodeling Services:</h3>
                     <ul className='container1-items'>

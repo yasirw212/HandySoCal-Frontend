@@ -23,7 +23,7 @@ const Fans = () => {
                 <br />
                 <p>we understand the importance of proper ventilation in your home. Whether you need to install or replace ceiling and bath fans, our professional installation services are designed to enhance the air quality, comfort, and safety of your living spaces. Our skilled technicians are committed to ensuring your fans are not only functional but also efficiently circulate air and meet industry standards.</p>
             </div>
-            <Form1 />
+            <Form1 name={"Fan(s) Installation"} category={"Electrical"} />
             <Container1 aos={'fade-up'}>
                 <h3>Ceiling Fan Installation:</h3>
                 <ul className="container1-items">

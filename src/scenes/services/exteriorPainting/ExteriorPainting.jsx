@@ -19,20 +19,19 @@ const ExteriorPainting = () => {
             <div className="display2-card">
                 <h1 className='display2-title'>Exterior Home Painting Services</h1>
                 <p>Our professional exterior house painting services are designed to not only enhance the curb appeal of your property but also provide long-lasting protection against the elements. Whether you want to refresh your home's look or safeguard it from the weather, our skilled painters are here to transform your vision into reality. </p>
-                <Form2>
+                <Form2 name={'Exterior Painting'} category={'Painting'}>
                     <div>
                         <label htmlFor="service">Service Needed:</label>
                         <select name="service" id="">
-                            <option value="entireExterior">Entire Exterior</option>
-                            <option value="trim">Trim and Siding Painting</option>
-                            <option value="frontDoor">Front Door Painting</option>
-                            <option value="frontDoor">Deck & Fence Painting</option>
-                            <option value="garageDoor">Garage Door Painting</option>
-                            <option value="window">Window Frame Painting</option>
-                            <option value="wood">Wood Prepare & Prep</option>
+                            <option value="Complete Exterior">Entire Exterior</option>
+                            <option value="Trim and Siding Painting">Trim and Siding Painting</option>
+                            <option value="Front Door Painting">Front Door Painting</option>
+                            <option value="Deck & Fence Painting">Deck & Fence Painting</option>
+                            <option value="Garage Door Painting">Garage Door Painting</option>
+                            <option value="Window Frame Painting">Window Frame Painting</option>
+                            <option value="Wood Prepare & Prep">Wood Prepare & Prep</option>
                         </select>
                     </div> 
-                    <textarea style={{gridColumn: '1 / 4'}} name="" id="" cols="30" rows="6" placeholder='Details about the job.'></textarea>
                 </Form2>
                 <img src={logoIcon} width={30} alt="" />
             </div>
@@ -41,37 +40,37 @@ const ExteriorPainting = () => {
             <div data-aos='fade-up' className="display2-services">
                 <h2 className='display2-title'>Our Home Exterior Painting Services </h2>
                 <Container2>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Entire Exterior Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Transform your entire home with a fresh coat of paint in your chosen color palette.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Trim and Siding Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Freshen up trim, siding, and exterior surfaces with crisp lines and vibrant colors.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Front Door Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Make a statement by painting your front door in an inviting and eye-catching color.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Deck and Fence Painting</h3>
                         <div className="feature-bar"></div>
                         <p> Extend the life of your outdoor structures with professional deck and fence painting.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Garage Door Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Match your garage door to the overall aesthetic of your home.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Window Frame Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Address any wood damage, rot, or peeling paint before painting.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'}v className="container2-item">
                         <h3>Wood Repair and Prep</h3>
                         <div className="feature-bar"></div>
                         <p>Enhance the acoustics and insulation of your space with specialized drywall solutions.</p>

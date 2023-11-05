@@ -22,11 +22,11 @@ const Flooring = () => {
                 <h2>Choose Us for Your Flooring  Needs</h2>
                 <p className='introduction-body'>we take pride in transforming your space with beautiful and durable flooring. Whether you need new flooring installed or existing floors repaired, we're your trusted partner. Our flooring services cover a wide range of materials and styles, allowing you to achieve the look and functionality you desire.</p>
             </div>
-            <Form1 >
+            <Form1 name={'Flooring'} category={'Home Improvement'} >
                 <label htmlFor="service">installation or repair?</label>
                 <select name="service" id="service">
-                    <option value="installation">Installation</option>
-                    <option value="repair">Repair</option>
+                    <option value="Installation">Installation</option>
+                    <option value="Repair">Repair</option>
                 </select>
             </Form1>
             <Container1 aos={'fade-up'}>

@@ -23,7 +23,7 @@ const Sanitization = () => {
                 <br />
                 <p>maintaining a clean and sanitized environment is crucial for the health and well-being of everyone who enters your space. Our professional sanitization services are designed to provide thorough and effective cleaning, ensuring that your home or office is a safe and hygienic place to be.</p>
             </div>
-            <Form1 />
+            <Form1 name={'Sanitization'} category={"Cleaning"} />
             <Container1 aos={'fade-up'}>
                 <h3>Home Sanitization Services:</h3>
                 <ul className="container1-items">

@@ -25,15 +25,15 @@ const DryWall = () => {
             <div className="display2-card">
                 <h1 className='display2-title'>Dry Wall</h1>
                 <p>At Handy SoCal, we understand the importance of flawless walls and ceilings in your home or business. Our drywall services are tailored to provide you with beautifully finished surfaces that enhance the aesthetics and functionality of your space. Explore our comprehensive drywall services.</p>
-                <Form2>
+                <Form2 category={'Home Improvement'} name={'Dry Wall'}>
                     <div>
-                        <label htmlFor="walls">Walls</label>
-                        <select name="walls" id="">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5+">5+</option>
+                        <label htmlFor="service">Walls</label>
+                        <select name="service" id="">
+                            <option value="Walls Needed: 1">1</option>
+                            <option value="Walls Needed: 2">2</option>
+                            <option value="Walls Needed: 3">3</option>
+                            <option value="Walls Needed: 4">4</option>
+                            <option value="Walls Needed: 5+">5+</option>
                         </select>
                     </div> 
                 </Form2>
@@ -44,37 +44,37 @@ const DryWall = () => {
             <div  className="display2-services">
                 <h2 className='display2-title'>Our Dry Wall Services </h2>
                 <Container2 data-aos='fade-up'>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Installation</h3>
                         <div className="feature-bar"></div>
                         <p>Install new drywall to create walls and ceilings that form the foundation for your interior spaces.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Repair</h3>
                         <div className="feature-bar"></div>
                         <p>Fix holes, cracks, dents, and other imperfections in existing drywall to restore a seamless look.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Finishing</h3>
                         <div className="feature-bar"></div>
                         <p>Achieve a smooth, textured, or custom finish that matches your aesthetic preferences.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Patching</h3>
                         <div className="feature-bar"></div>
                         <p>Patch up and blend in areas where drywall has been damaged or removed.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Texture Matching</h3>
                         <div className="feature-bar"></div>
                         <p>Match and replicate existing wall or ceiling textures for a seamless look.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Painting</h3>
                         <div className="feature-bar"></div>
                         <p>Prepare your drywall for painting, ensuring a smooth surface for a flawless finish.</p>
                     </div>
-                    <div className="container2-item">
+                    <div data-aos={'fade-up'} className="container2-item">
                         <h3>Soundproofing and Insulation</h3>
                         <div className="feature-bar"></div>
                         <p>Enhance the acoustics and insulation of your space with specialized drywall solutions.</p>
@@ -111,7 +111,7 @@ const DryWall = () => {
                         <li>Conducting expert repairs to holes, cracks, or water damage.</li>
                     </ul>
                 </ProcessCard>
-                <ProcessCard img={inspectImg} aos={'fade-right'}>
+                <ProcessCard img={inspectImg} aos={'fade-left'}>
                     <h4>Quality Inspection: Ensuring Excellence</h4>
                     <p>Before considering the project complete, we conduct a thorough quality inspection. This includes:</p>
                     <ul>
@@ -120,7 +120,7 @@ const DryWall = () => {
                         <li>Verifying that the drywall is smooth, seamless, and ready for painting or finishing.</li>
                     </ul>
                 </ProcessCard>
-                <ProcessCard img={walkThroughImg} aos={'fade-left'}>
+                <ProcessCard img={walkThroughImg} aos={'fade-right'}>
                     <h4>Client Walkthrough: Your Satisfaction Matters</h4>
                     <p>We invite you to join us for a client walkthrough, during which you can inspect the completed drywall project and ensure it meets your expectations. This is your opportunity to:</p>
                     <ul>

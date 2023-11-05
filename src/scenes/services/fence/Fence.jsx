@@ -23,7 +23,7 @@ const Fence = () => {
                 <br />
                 <p> we believe that a well-constructed fence not only defines your property but also provides security, privacy, and enhances the aesthetic appeal of your home. Our professional fence installation services are designed to cater to your specific needs, whether you're looking for a classic picket fence, a durable chain-link fence, or a custom-designed fence that complements your landscaping. We are dedicated to ensuring that your fence is not only functional but also built to last.</p>
             </div>
-            <Form1 />
+            <Form1 category={"Home Improvement"} name={'Fence Installation'} />
             <Container1 aos={'fade-up'} >
                 <h3>Wooden Fences:</h3>
                 <ul className="container1-items">
