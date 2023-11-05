@@ -105,7 +105,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div id='assembly' className="category">
-                    <h3 data-aos='fade-up'  className="category-name">Assembly</h3>
+                    <h3  className="category-name">Assembly</h3>
                     <div className="category-services">
                         {assembly.map(service => <ServiceCard id={service.id} category={service.categories.name.replace(/\s+/g, '')} name={service.name} img={service.photos} />)}
                     </div>
