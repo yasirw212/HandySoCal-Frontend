@@ -69,10 +69,6 @@
 
 
 @media only screen and (min-width: 900px) {
-    .navbar-brand img {
-        /* min-width: 60% */
-    }
-
     .navbar-menu {
         display: none;
     }
@@ -91,6 +87,14 @@
         font-size: 1.1rem;
         
     }
+}
+
+@media only screen and (min-width: 1500px) {
+    .navbar-brand {
+        width: 10%;
+        margin-left: 3em;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -148,7 +152,6 @@
         left: 50%;
         bottom: 0;
         box-shadow: 0px 0px 5px #131313;
-        /* background: green; */
         min-height: 100vh;
     }
 
@@ -165,7 +168,6 @@
         padding-bottom: .75rem;
         font-size: 1rem;
         padding: 10px;
-        /* border-bottom: 1px solid #1a2a6c; */
         box-shadow: 0px 0px 5px #1a2a6c ;
     }
 
@@ -198,7 +200,6 @@
     }
 
     .contact-btn{
-        /* font-size: .75rem; */
         margin-top: 2.5rem;
     }
 

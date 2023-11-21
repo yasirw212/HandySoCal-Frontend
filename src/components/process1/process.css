@@ -4,14 +4,14 @@
 }
 .process-heading{
     text-align: center;
-    margin: 2.5rem 0 2.5rem 0;
+    margin: 4em 0 2.5rem 0;
 }
 
 
 .step{
     position: relative;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4em;
 }
 
 .step:nth-child(2),
@@ -20,6 +20,7 @@
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
+
 }
 
 
@@ -139,5 +140,17 @@
 
     .step-body li {
         margin-left: .5rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .step-img{
+        width: 35%;
+    }
+
+    .step:nth-child(2) div,
+    .step:nth-child(4) div,
+    .step:nth-child(6) div{
+        left: 40%;
     }
 }

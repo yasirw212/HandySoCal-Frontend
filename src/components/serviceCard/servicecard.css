@@ -10,24 +10,17 @@ a {
 }
 
 .service-card{
-    border-radius: 8px;
     display: flex;
     flex-direction: column;
     max-width: 100%;
     overflow: hidden;
-    /* background: greenyellow; */
 }
 
 .service-card img {
     max-width: 100%;
-    /* min-width: 100%; */ 
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     max-height: 175px;
-    /* background: greenyellow; */
-    
 }
 
 .service-card:hover{
@@ -38,10 +31,9 @@ a {
 
 .text{
     border: 2px solid #d7d7d7;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top: transparent;
     height: 75px;
-    color: #1a2a6c;
+    color: #283c86;
     max-width: 100%;
   
 }
@@ -49,6 +41,7 @@ a {
 .title{
     padding: 1em;
     font-size: 14px;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 900px) {
@@ -68,5 +61,11 @@ a {
 
     .title{
         font-size: .5rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .service-card img {
+        max-height: 150px;
     }
 }

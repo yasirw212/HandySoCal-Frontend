@@ -1,5 +1,4 @@
 import React from 'react'
-import palmTrees from '../../assets/serviceshero.jpg'
 import './services.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { getServices, selectServices } from '../../features/services/servicesSlice'
@@ -53,7 +52,7 @@ const Services = () => {
 
        }
        filterServices()
-    //    console.log(filteredServices)
+    
     }, [services])
 
     const handleChange = async (e) => {
