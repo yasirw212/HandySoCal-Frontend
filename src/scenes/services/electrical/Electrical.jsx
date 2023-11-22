@@ -1,5 +1,4 @@
 import React from 'react'
-import './electrical.css'
 import Hero from '../../../components/templates/hero/Hero'
 import electricalImg from '../../../assets/electrical.jpg'
 import Form1 from '../../../components/inquiryForms/form1/Form1'

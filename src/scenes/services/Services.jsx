@@ -40,8 +40,6 @@ const Services = () => {
 
 
     React.useEffect(() => {
-        // dispatch(getServices())
-        
        if(services.length > 0){
         setHomeImprovement(services.filter(service => service.categories_id == '499eeba1-4e94-49d6-8bd0-c1b32384a520'))
         setAssembly(services.filter(service => service.categories_id == '46ae3931-45b0-4a87-89af-935496e779be'))
@@ -57,7 +55,6 @@ const Services = () => {
 
     const handleChange = async (e) => {
         await setSearchFilter(e.target.value)
-        // services.filter(service => service.name.toLowerCase().indexOf(searchFilter.toLowerCase()) >= 0)
         filterServices()
     }
 
@@ -85,7 +82,6 @@ const Services = () => {
         <div className="services-body">
             <div id="sidebar" className="categories-sidebar">
                 <div className="sidebar-header"><h3>All Categories</h3></div>
-
                 <ul className="categories-items">
                     <li className="categories-item"><a href="#homeImprovement">Home Improvement</a></li>
                     <li className="categories-item"><a href="#assembly">Assembly</a></li>
@@ -96,7 +92,6 @@ const Services = () => {
                 </ul>
             </div>
             <div className="categories">
-                
                 <div id="homeImprovement" className="category">
                     <h3 className="category-name">Home Improvement</h3>
                     <div className="category-services">

@@ -1,5 +1,4 @@
 import React from 'react'
-import './deck.css'
 import Hero from '../../../components/templates/hero/Hero'
 import deckImg from '../../../assets/deck.jpg'
 import Form1 from '../../../components/inquiryForms/form1/Form1'
@@ -21,6 +20,7 @@ const Deck = () => {
         <div className="display1-body">
             <div className="deck-intro">
                 <h2>Why Choose Us for Your Deck Needs?</h2>
+                <br />
                 <p className='introduction-body'>We are your go-to experts for all things related to decks. Whether your deck needs repair, renovation, or a fresh build, we have the skills and experience to deliver beautiful, functional outdoor spaces that enhance your home. Explore our comprehensive deck services:</p>
             </div>
             <Form1 name={'Deck Installation/Repair'} category={'Home Improvement'} aos='fade-up' >

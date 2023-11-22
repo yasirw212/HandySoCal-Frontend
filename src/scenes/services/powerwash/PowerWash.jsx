@@ -1,5 +1,4 @@
 import React from 'react'
-import './powerwash.css'
 import Hero from '../../../components/templates/hero/Hero'
 import powerWashImg from '../../../assets/powerwash.jpg'
 import Form1 from '../../../components/inquiryForms/form1/Form1'

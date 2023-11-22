@@ -1,5 +1,4 @@
 import React from 'react'
-import './patio.css'
 import Hero from '../../../components/templates/hero/Hero'
 import Form1 from '../../../components/inquiryForms/form1/Form1'
 import Container1 from '../../../components/templates/container1/container1'
@@ -21,6 +20,7 @@ const Patio = () => {
         <div className="display1-body">
             <div className="patio-intro">
                 <h2>Why Choose Us for Your Patio Project?</h2>
+                <br />
                 <p>We are your trusted partner in creating outdoor spaces that elevate your lifestyle. Our patio build and installation services are designed to enhance your property, offering a perfect blend of aesthetics and functionality. Explore the possibilities of a beautiful and inviting outdoor area with our comprehensive services:</p>
             </div>
             <Form1 name={'Patio Build/Installation'} category={'Home Improvement'} />

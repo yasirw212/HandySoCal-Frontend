@@ -1,5 +1,5 @@
 import React from 'react'
-import './bathroom.css'
+
 import { selectServices } from '../../../features/services/servicesSlice'
 import { useSelector, useDispatch } from 'react-redux'
 import { useParams } from 'react-router'

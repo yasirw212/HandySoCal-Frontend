@@ -20,6 +20,7 @@ const Flooring = () => {
         <div className="display1-body">
             <div className="deck-intro">
                 <h2>Choose Us for Your Flooring  Needs</h2>
+                <br />
                 <p className='introduction-body'>we take pride in transforming your space with beautiful and durable flooring. Whether you need new flooring installed or existing floors repaired, we're your trusted partner. Our flooring services cover a wide range of materials and styles, allowing you to achieve the look and functionality you desire.</p>
             </div>
             <Form1 name={'Flooring'} category={'Home Improvement'} >

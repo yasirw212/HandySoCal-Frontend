@@ -1,5 +1,4 @@
 import React from 'react'
-import './drywall.css'
 import Hero2 from '../../../components/hero2/Hero2'
 import dryWallImg from '../../../assets/drywall.jpg'
 import logoIcon from '../../../assets/logo-icon.png'

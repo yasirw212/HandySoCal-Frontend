@@ -24,9 +24,7 @@ a {
 }
 
 .service-card:hover{
-    transform: scale(1.05);
     transition: ease-in-out 500ms;
-    
 }
 
 .text{

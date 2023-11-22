@@ -20,6 +20,7 @@ const Cleaning = () => {
         <div className="display1-body">
             <div className='powerWash-intro' >
                 <h3>Why Choose Us for Your Cleaning Needs?</h3>
+                <br />
                 <p className="introduction-body">A clean and tidy space is essential for a healthy and comfortable environment. Our professional cleaning services are designed to take the burden of cleaning off your shoulders, whether it's in your home or office. We offer a range of cleaning solutions to cater to your specific needs.</p>
             </div>
             <Form1 name={'Basic Cleaning'} category={'Cleaning'} />

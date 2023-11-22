@@ -12,7 +12,6 @@ const Form1 = ({children, aos, name, category}) => {
   const form = React.useRef()
   const handleSubmit = (e) => {
     e.preventDefault()
-
     setSubmitted(true)
   }
 
@@ -31,7 +30,6 @@ const sendEmail = (e) => {
 
   emailjs.sendForm('service_qimqb68', 'template_9f4rl6c', form.current, 'QUk80EdPABNDbOcof')
   .then((result) => {
-      console.log(result.text)
       const formData = new FormData(document.getElementById('form1'))
       setSubmitted(true)
   }, (error) => {

@@ -40,7 +40,6 @@ const Home = () => {
                 {
                     popularServicesHtml
                 }
-                 
             </div>
         </div>
         <div className="guarantees-container">

@@ -80,10 +80,9 @@ a{
 .services-body{
     padding: 40px 40px;
     display: grid;
-    grid-template: auto auto / 20% 75%;
+    grid-template: auto auto / 20% 70%;
     grid-column-gap: 1rem;
     margin: 0 auto;
-    justify-content: space-between;
     color: #fff;
     
 }
@@ -149,6 +148,10 @@ a{
 @media only screen and (max-width: 900px) {
     .category-services{
         grid-template: auto auto / repeat(3, 1fr);
+    }
+
+    .services-body {
+        justify-content: space-between;
     }
 }
 

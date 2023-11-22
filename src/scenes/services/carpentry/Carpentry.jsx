@@ -1,5 +1,4 @@
 import React from 'react'
-import './carpentry.css'
 import Hero from '../../../components/templates/hero/Hero'
 import carpentryImg from '../../../assets/carpentry.jpg'
 import Form1 from '../../../components/inquiryForms/form1/Form1'
@@ -21,6 +20,7 @@ const Carpentry = () => {
         <div className="display1-body">
             <div className="carpentry-intro">
                 <h2>Why Choose Us for Your Carpentry Needs?</h2>
+                <br />
                 <p>We are the carpentry experts you can rely on for all your woodworking needs. Our experienced carpenters are skilled in crafting custom pieces, repairing furniture, and enhancing the aesthetics and functionality of your space. Explore our comprehensive carpentry services:</p>
             </div>
             <Form1 name={'Carpentry'} category={'Home Improvement'} />

@@ -10,7 +10,7 @@ const About = () => {
     <div className='about-container'>
         <h2 className='about-header'>Handy SoCal - Your Trusted Handyman Services in Southern California</h2>
         <div className="about-introduction">
-                <h4>Welcome to Handy SoCal, Southern California's premier destination for top-notch handyman services. With a strong commitment to excellence and a dedication to our local community, we have been serving the residents of Southern California for over [X] years. As a locally owned and operated business, we take pride in our contribution to maintaining the beauty and functionality of homes and businesses across the diverse landscapes of Southern California.</h4>
+                <h4>Welcome to Handy SoCal, Southern California's premier destination for top-notch handyman services. With a strong commitment to excellence and a dedication to our local community, we have been serving the residents of Southern California for over 15 years. As a locally owned and operated business, we take pride in our contribution to maintaining the beauty and functionality of homes and businesses across the diverse landscapes of Southern California.</h4>
             <img width={125}  src={california} alt="" />
         </div>
         <div className="about-body">
@@ -30,7 +30,7 @@ const About = () => {
                 <div className="feature">
                     <h3 className="feature-heading" >Our Story <GiBlackBook /> </h3>
                     <div className="feature-bar"></div>
-                    <p className="feature-body">Established in [Year], Handy Socal has been a cornerstone of Southern California's home improvement scene for over [X] years. Our journey began with a vision – a vision to provide comprehensive handyman services that elevate the quality of life for our fellow residents. We've since evolved and grown, but our core values of quality, integrity, and customer satisfaction remain at the heart of everything we do.</p>
+                    <p className="feature-body">Established in 2008, Handy Socal has been a cornerstone of Southern California's home improvement scene for over 15 years. Our journey began with a vision – a vision to provide comprehensive handyman services that elevate the quality of life for our fellow residents. We've since evolved and grown, but our core values of quality, integrity, and customer satisfaction remain at the heart of everything we do.</p>
                 </div>
                 <div className="feature">
                     <h3 className="feature-heading">Our Team <RiTeamLine /> </h3>

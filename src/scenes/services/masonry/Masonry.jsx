@@ -1,5 +1,4 @@
 import React from 'react'
-import './masonry.css'
 import Hero from '../../../components/templates/hero/Hero'
 import masonryImg from '../../../assets/masonry.jpg'
 import Form1 from '../../../components/inquiryForms/form1/Form1'
@@ -21,13 +20,14 @@ const Masonry = () => {
         <div className="masonry-body display1-body">
             <div className="masonry-intro">
                 <h2>Masonry Services</h2>
+                <br />
                 <p className="introduction-body">With our years of experience and skilled craftsmen, we bring your vision to life through a wide range of masonry projects. Whether you need brickwork, stone masonry, or concrete services, we have the expertise to deliver top-quality results. Explore the world of masonry with us.</p>
             </div>
             <Form1 name={'Masonry'} category={'Home Improvement'} />
             <Container1 aos={'fade-up'} >
                 <h3>Why Choose Us for Your Masonry Projects? </h3>
                 <ul className="container1-items">
-                    <li className="container1-item"><span>Experience:</span> With over [X] years in the industry, we bring a wealth of experience and knowledge to every project.</li>
+                    <li className="container1-item"><span>Experience:</span> With over 20 years in the industry, we bring a wealth of experience and knowledge to every project.</li>
                     <li className="container1-item"><span>Tailored Solutions: </span> We work closely with you to understand your vision, budget, and unique needs, ensuring a masonry project that aligns perfectly with your goals.</li>
                     <li className="container1-item"><span>Quality Craftsmanship:</span> Our team of skilled masons takes pride in every detail, ensuring the highest standards of workmanship.</li>
                     <li className="container1-item"><span>Transparent Process:</span> We maintain open communication, provide detailed quotes, and keep you informed at every stage of your project.</li>

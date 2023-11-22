@@ -1,5 +1,4 @@
 import React from 'react'
-import './kitchen.css'
 import { selectServices } from '../../../features/services/servicesSlice'
 import { useSelector, useDispatch } from 'react-redux'
 import { useParams } from 'react-router'
@@ -34,6 +33,7 @@ const Kitchen = () => {
         <div className="display1-body">
                 <div  className="kitchen-intro">
                     <h2 className='kitchen-title'>Transform Your Kitchen</h2>
+                    <br />
                     <p className='introduction-body'>Handy SoCal, where kitchen dreams come to life. Our kitchen remodeling services in the Southern California area are a testament to our commitment to transforming kitchens into beautiful and functional spaces. Whether you're looking for a minor update or a complete kitchen makeover, we have the expertise to turn your vision into reality.</p>
                 </div>
                 <Form1 name={'Kitchen Remodeeling'} category={'Home Improvement'} />

@@ -1,5 +1,4 @@
 import React from 'react'
-import './plumbing.css'
 import Hero from '../../../components/templates/hero/Hero'
 import Form1 from '../../../components/inquiryForms/form1/Form1'
 import Container1 from '../../../components/templates/container1/container1'

@@ -1,5 +1,4 @@
 import React from 'react'
-import './processCard.css'
 
 const ProcessCard = (props) => {
   return (
