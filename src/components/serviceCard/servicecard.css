@@ -19,9 +19,9 @@ a {
 
 
 .service-img {
-    min-width: 100%;
+    max-width: 100%;
     overflow: hidden;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .service-img:hover{
@@ -31,7 +31,6 @@ a {
 
 .text{
     border: 2px solid #d7d7d7;
-    /* border-top: transparent; */
     height: 75px;
     color: #283c86;
     max-width: 100%;
