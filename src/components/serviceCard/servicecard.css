@@ -16,24 +16,22 @@ a {
     overflow: hidden;
 }
 
-.img-container{
-    height: 175px;
+
+
+.service-img {
+    min-width: 100%;
     overflow: hidden;
+    height: 100%;
 }
 
-.service-card img {
-    min-height: 100%;
-    width: 100%;
-}
-
-.service-card img:hover{
+.service-img:hover{
     transition: ease-in-out 500ms;
     transform: scale(1.10);
 }
 
 .text{
     border: 2px solid #d7d7d7;
-    border-top: transparent;
+    /* border-top: transparent; */
     height: 75px;
     color: #283c86;
     max-width: 100%;
@@ -47,13 +45,13 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
-    .service-card img {
+    .service-img {
         height: 175px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .service-card img {
+    .service-img {
         max-height: 85px;
     }
 
@@ -67,7 +65,7 @@ a {
 }
 
 @media only screen and (min-width: 1500px) {
-    .service-card img {
+    .service-img {
         max-height: 150px;
     }
 }

@@ -6,9 +6,7 @@ const ServiceCard = ({service, category, id, name, img}) => {
   return (
     <Link to={`/services/${category}/${id}`}>
         <div data-aos='fade-up' className="service-card">
-            <div className="img-container">
-              <img  src={img} alt="" />
-            </div>
+            <img className='service-img'  src={img} alt="" />
             <div className="text">
                 <p className='title'>{name}</p>
             </div>
