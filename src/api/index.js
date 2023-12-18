@@ -1,5 +1,5 @@
 import axios from 'axios'
-axios.defaults.withCredentials = true
+// axios.defaults.withCredentials = true
 
 export const retrieveServices = () => axios.get('https://handysocal-backend-047adc2bc46f.herokuapp.com/services')
 
