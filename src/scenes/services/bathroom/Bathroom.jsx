@@ -35,19 +35,18 @@ const Bathroom = () => {
             <div className="display1-body bathroom-body">
                 <div  className="bathroom-intro">
                     <h2 className='bathroom-title'>Transform Your Bathroom</h2>
-                    <p className='container1-body'>At Handy SoCal, we take pride in transforming bathrooms into elegant, functional, and rejuvenating spaces. Our bathroom remodeling services in Southern California are designed to enhance your daily routine and add value to your home. Whether you're considering a small update or a complete bathroom makeover, we have the expertise to bring your vision to life.</p>
+                    <p className='container1-body'>At Quintero Construction, we take pride in transforming bathrooms into elegant, functional, and rejuvenating spaces. Our bathroom remodeling services in Southern California are designed to enhance your daily routine and add value to your home. Whether you're considering a small update or a complete bathroom makeover, we have the expertise to bring your vision to life.</p>
                     
                 </div>
                 <Form1 name={'Bathroom Remodeling'} category={'Home Improvement'} />
                 <Container1 aos={'fade-up'}>
                     <h3>Remodeling Services: </h3>
                     <ul className="container1-items">
+                        <li className="container1-item"><span>Full Remodel: </span> From concept to completion, we handle every detail, offering expert design, quality craftsmanship, and a commitment to exceeding your expectations.</li>
                         <li className="container1-item"><span>Tub and Shower Updates:</span> Whether you're looking to replace or refinish your bathtub or shower, we provide options that match your style and budget.</li>
-                        <li className="container1-item"><span>Vanity Installation:</span> Choose from a variety of vanities, sinks, and countertops to create a stylish and functional bathroom.</li>
                         <li className="container1-item"><span>Tile Work:</span> From intricate mosaics to elegant porcelain tiles, we handle all types of tile work, including shower and floor tile installation.</li>
-                        <li className="container1-item"><span>Plumbing and Electrical:</span> Our experts ensure your plumbing and electrical systems are safe, functional, and energy-efficient.</li>
+                        
                         <li className="container1-item"><span>Lighting Solutions:</span> Enhance your bathroom's ambiance with updated lighting fixtures and designs.</li>
-                        <li className="container1-item"><span>Accessibility Features:</span> We can install grab bars, ramps, and other accessibility features for those with mobility needs.</li>
                     </ul>
                 </Container1>
                 

@@ -33,7 +33,7 @@ const Patio = () => {
                     <li className="container1-item"><span>Pergolas and Shade Structures:</span> Enhance your patio with shade structures, pergolas, and trellises that provide comfort and style.</li>
                     <li className="container1-item"><span>Outdoor Lighting:</span> Illuminate your patio with a variety of lighting options, including string lights, sconces, and spotlights.</li>
                     <li className="container1-item"><span>Fire Features:</span> Add a cozy and inviting atmosphere with fire pits, fireplaces, and fire tables.</li>
-                    <li className="container1-item"><span>Seating and Furniture:</span> Select comfortable and stylish outdoor furniture to complete your patio space.</li>
+                    <li className="container1-item"><span>Outdoor BBQ & Living Areas:</span> Elevate your gatherings with stylish designs that seamlessly blend cooking, dining, and relaxation.</li>
                 </ul>
             </Container1>
         </div>

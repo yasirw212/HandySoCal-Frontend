@@ -58,10 +58,6 @@ const Navbar = ({toggleForm}) => {
         }
     }
 
-    // const toggleContactForm = () => {
-    //     document.getElementById('contact-container').classList.toggle('active')
-    // }
-
   return (
     <div className='navbar-container'>
         <Link to={'/'} className='navbar-brand'>

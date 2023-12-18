@@ -27,12 +27,14 @@ const Carpentry = () => {
             <Container1>
                 <h3>Carpentry Services:</h3>
                 <ul className="container1-items">
-                    <li className="container1-item"><span>Furniture Repair and Restoration:</span> Restore and repair damaged or worn-out furniture to its former glory.</li>
                     <li className="container1-item"><span>Cabinet Installation and Repairs:</span> Install new cabinets or repair and refinish existing ones for kitchens, bathrooms, and more.</li>
                     <li className="container1-item"><span>Built-Ins and Bookcases:</span> Add custom built-ins, bookcases, and storage solutions to enhance the functionality and aesthetics of your space.</li>
                     <li className="container1-item"><span>Trim and Molding:</span> Install or replace trim, baseboards, crown molding, and other decorative elements to give your space a polished look.</li>
-                    <li className="container1-item"><span>Wooden Stairs and Railings:</span> Design and construct wooden stairs and railings that are both functional and visually appealing.</li>
                     <li className="container1-item"><span>Deck and Patio Carpentry:</span> Build, repair, or enhance your deck or patio with custom carpentry work, including railings, pergolas, and seating.</li>
+                    <li className="container1-item"><span>Door Replacement/Installation:</span> Upgrade to sleek, secure doors effortlessly installed by our skilled team. Elevate your entryways for enhanced style and functionality. </li>
+                    <li className="container1-item"><span>Framing/Structure Repairs:</span> Reinforce the essential framework of your space, ensuring durability and longevity.</li>
+                    <li className="container1-item"><span>Wood & Cement Board Siding:</span> Wood siding embodies traditional elegance, while cement board siding offers robust durability. Together, they create a stylish and resilient exterior solution for homes, blending classic aesthetics with modern strength.</li>
+                    <li className="container1-item"><span>Termite/Dry Rot/Water Damage Repair:</span> Address and remedy issues caused by termites, fungal decay (dry rot), and water damage, ensuring a structurally sound and aesthetically pleasing living space.</li>
                 </ul>
             </Container1>
         </div>

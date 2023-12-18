@@ -23,7 +23,7 @@ const DryWall = () => {
         <div className="display2-intro">
             <div className="display2-card">
                 <h1 className='display2-title'>Dry Wall</h1>
-                <p>At Handy SoCal, we understand the importance of flawless walls and ceilings in your home or business. Our drywall services are tailored to provide you with beautifully finished surfaces that enhance the aesthetics and functionality of your space. Explore our comprehensive drywall services.</p>
+                <p>At Quintero Construction, we understand the importance of flawless walls and ceilings in your home or business. Our drywall services are tailored to provide you with beautifully finished surfaces that enhance the aesthetics and functionality of your space. Explore our comprehensive drywall services.</p>
                 <Form2 category={'Home Improvement'} name={'Dry Wall'}>
                     <div>
                         <label htmlFor="service">Walls</label>
@@ -47,11 +47,6 @@ const DryWall = () => {
                         <h3>Drywall Installation</h3>
                         <div className="feature-bar"></div>
                         <p>Install new drywall to create walls and ceilings that form the foundation for your interior spaces.</p>
-                    </div>
-                    <div data-aos={'fade-up'} className="container2-item">
-                        <h3>Drywall Repair</h3>
-                        <div className="feature-bar"></div>
-                        <p>Fix holes, cracks, dents, and other imperfections in existing drywall to restore a seamless look.</p>
                     </div>
                     <div data-aos={'fade-up'} className="container2-item">
                         <h3>Drywall Finishing</h3>

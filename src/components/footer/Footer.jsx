@@ -7,7 +7,7 @@ const Footer = ({toggle}) => {
   return (
     <div className="footer-container">
         <div className="trademark">
-            <p>© 2023 Handy SoCal. All rights reserved.</p>
+            <p>© 2023 Quintero Construction. All rights reserved.</p>
         </div>
         <div onClick={toggle} className="footer-icons">
             <GrMail />

@@ -27,11 +27,19 @@ const Masonry = () => {
             <Container1 aos={'fade-up'} >
                 <h3>Why Choose Us for Your Masonry Projects? </h3>
                 <ul className="container1-items">
-                    <li className="container1-item"><span>Experience:</span> With over 20 years in the industry, we bring a wealth of experience and knowledge to every project.</li>
+                    <li className="container1-item"><span>Experience:</span> With over 30+ years in the industry, we bring a wealth of experience and knowledge to every project.</li>
                     <li className="container1-item"><span>Tailored Solutions: </span> We work closely with you to understand your vision, budget, and unique needs, ensuring a masonry project that aligns perfectly with your goals.</li>
                     <li className="container1-item"><span>Quality Craftsmanship:</span> Our team of skilled masons takes pride in every detail, ensuring the highest standards of workmanship.</li>
                     <li className="container1-item"><span>Transparent Process:</span> We maintain open communication, provide detailed quotes, and keep you informed at every stage of your project.</li>
                     <li className="container1-item"><span>Versatility:</span> From small repairs to large-scale masonry construction, we handle a wide range of projects.</li>
+                </ul>
+                <br />
+                <h3>Services Provided: </h3>
+                <ul className="container1-items">
+                   <li className="container1-item"><span>Stucco Installation/Repairs:</span> From flawless installations to seamless repairs, we provide a fresh, durable finish that enhances both aesthetics and protection.</li>
+                   <li className="container1-item"><span>Concrete Block Walls & Structures:</span> Our expert craftsmanship ensures robust construction, providing not just stability but a lasting foundation for your architectural vision.</li>
+                   <li className="container1-item"><span>Stone Work:</span>  Experience the enduring charm and rugged elegance of expertly crafted stonework for your home or outdoor spaces.</li>
+                   <li className="container1-item"><span>Brick Siding:</span> Enhance your home's exterior with the classic charm and enduring appeal of brick siding. Brick siding not only adds timeless character but also provides durable protection.</li>
                 </ul>
             </Container1>
         </div>

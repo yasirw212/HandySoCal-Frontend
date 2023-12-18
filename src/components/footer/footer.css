@@ -17,7 +17,7 @@
 }
 
 .footer-logo img{
-    width: 100px;
+    width: 235px;
     margin-top: .5rem;
 }
 
@@ -26,6 +26,6 @@
         font-size: .85rem;
     }
     .footer-logo img {
-        width: 75px;
+        width: 100px;
     }
 }

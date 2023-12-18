@@ -8,6 +8,8 @@ import ServiceCard from '../../components/serviceCard/ServiceCard'
 import {GrStar} from "react-icons/gr"
 import check from '../../assets/check-icon.png'
 import phone from '../../assets/phone.png'
+import Hero from '../../components/templates/hero/Hero'
+import heroImg from '../../assets/home-hero.png'
 
 const Home = () => {
     const dispatch = useDispatch()
@@ -30,9 +32,9 @@ const Home = () => {
   return (
     <div className='home-container'>
         <div data-aos='fade-in' className="introduction" >
-            <h3 className='heading'>Turning Houses into Homes with Care and Craftsmanship.</h3>
+            <h3 className='heading'>Residential & Commercial Construction Specialists.</h3>
             <img src={dewalt} alt="" />
-            <p className='introduction-body' >Our team of skilled and licensed handymen is here to handle any project, big or small, with precision and care. From plumbing and electrical repairs to carpentry, painting, and everything in between, we've got the expertise to get the job done right.</p>
+            <p className='introduction-body' ><strong>Quintero Construction </strong> offers comprehensive handyman and construction services for all your needs. From small repairs to remodeling projects, our skilled craftsmen bring expertise, efficiency, and a commitment to quality. Count on us to be your go-to solution for a wide range of home and commercial improvements. Your satisfaction is our priority as we seamlessly handle all your construction challenges.</p>
         </div>
         <div  className='popular-services-container'>
             <h4 className='popular-heading'>Popular Services</h4>
@@ -74,7 +76,7 @@ const Home = () => {
         <div data-aos='fade-up' className="contact-section">
             <div className='contact-text'>
                 <h2>Ready to embark on your next project? </h2>
-                <p>Call: 555-555-5555</p>
+                <p>Call: (619)-306-6059</p>
             </div>
             <img className='phone-img' src={phone} alt="" />
         </div>

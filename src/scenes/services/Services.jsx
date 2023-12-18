@@ -12,6 +12,7 @@ const Services = () => {
     const [filteredServices, setFilteredServices] = React.useState(services.filter(service => service.name.toLowerCase().indexOf(searchFilter.toLowerCase()) >= 0))
     
     const [homeImprovement, setHomeImprovement] = React.useState([])
+    const [generalServices, setGeneralServices] = React.useState([])
     const [assembly, setAssembly] = React.useState([])
     const [electrical, setElectrical] = React.useState([])
     const [plumbing, setPlumbing] = React.useState([])
@@ -41,6 +42,7 @@ const Services = () => {
 
     React.useEffect(() => {
        if(services.length > 0){
+        setGeneralServices(services.filter(service => service.categories_id == '3e10ecf3-5710-49c6-ba61-161f6fd4e214'))
         setHomeImprovement(services.filter(service => service.categories_id == '499eeba1-4e94-49d6-8bd0-c1b32384a520'))
         setAssembly(services.filter(service => service.categories_id == '46ae3931-45b0-4a87-89af-935496e779be'))
         setElectrical(services.filter(service => service.categories_id == 'bae77677-d599-4011-9af0-bd5bae85d160'))
@@ -83,6 +85,7 @@ const Services = () => {
             <div id="sidebar" className="categories-sidebar">
                 <div className="sidebar-header"><h3>All Categories</h3></div>
                 <ul className="categories-items">
+                    <li className="categories-item"><a href="#generalServices">General Services</a></li>
                     <li className="categories-item"><a href="#homeImprovement">Home Improvement</a></li>
                     <li className="categories-item"><a href="#assembly">Assembly</a></li>
                     <li className="categories-item"><a href="#electrical">Electrical</a></li>
@@ -96,6 +99,12 @@ const Services = () => {
                     <h3 className="category-name">Home Improvement</h3>
                     <div className="category-services">
                         {homeImprovement.map(service => <div className='category-service'><ServiceCard service={service} category={service.categories.name.replace(/\s+/g, '')} id={service.id} name={service.name} img={service.photos} /></div>)}
+                    </div>
+                </div>
+                <div id="generalServices" className="category">
+                    <h3 className="category-name">General Services</h3>
+                    <div className="category-services">
+                        {generalServices.map(service => <div className='category-service'><ServiceCard service={service} category={service.categories.name.replace(/\s+/g, '')} id={service.id} name={service.name} img={service.photos} /></div>)}
                     </div>
                 </div>
                 <div id='assembly' className="category">

@@ -38,9 +38,7 @@ const Flooring = () => {
                     <li className="container1-item"><span>Tile Flooring Installation:</span> Install ceramic, porcelain, or natural stone tiles to achieve a sleek and modern look.</li>
                     <li className="container1-item"><span>Vinyl and Linoleum Flooring Installation:</span> Opt for resilient and versatile vinyl or linoleum flooring that's easy to maintain.</li>
                     <li className="container1-item"><span>Carpet Installation:</span> Add warmth and comfort to your space with plush and cozy carpeting.</li>
-                    <li className="container1-item"><span>Flooring Repair:</span> Repair and restore damaged or worn-out flooring to its original condition.</li>
                     <li className="container1-item"><span>Flooring Removal and Replacement:</span> Remove and replace outdated or damaged flooring to give your space a fresh look.</li>
-                    <li className="container1-item"><span>Subfloor Repair and Leveling:</span> Ensure a smooth and even surface for your new flooring by repairing and leveling the subfloor.</li>
                 </ul>
             </Container1>
         </div>

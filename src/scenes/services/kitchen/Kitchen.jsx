@@ -34,13 +34,13 @@ const Kitchen = () => {
                 <div  className="kitchen-intro">
                     <h2 className='kitchen-title'>Transform Your Kitchen</h2>
                     <br />
-                    <p className='introduction-body'>Handy SoCal, where kitchen dreams come to life. Our kitchen remodeling services in the Southern California area are a testament to our commitment to transforming kitchens into beautiful and functional spaces. Whether you're looking for a minor update or a complete kitchen makeover, we have the expertise to turn your vision into reality.</p>
+                    <p className='introduction-body'>Quintero Construction, where kitchen dreams come to life. Our kitchen remodeling services in the Southern California area are a testament to our commitment to transforming kitchens into beautiful and functional spaces. Whether you're looking for a minor update or a complete kitchen makeover, we have the expertise to turn your vision into reality.</p>
                 </div>
                 <Form1 name={'Kitchen Remodeeling'} category={'Home Improvement'} />
                 <Container1 aos={'fade-up'}>
                     <h3>Our Remodeling Services:</h3>
                     <ul className='container1-items'>
-                        <li className='container1-item'><span>Cabinet Refinishing and Replacement:</span> Transform the look of your kitchen with cabinet refinishing or opt for brand-new custom cabinets.</li>
+                        <li className='container1-item'><span>Cabinet Refinishing and Replacement:</span> Transform the look of your kitchen with cabinet refinishing or opt for brand-new cabinets.</li>
                         <li className='container1-item'><span>Countertop Upgrades:</span> Choose from a variety of materials, such as granite, quartz, or marble, to give your kitchen a fresh, modern look.</li>
                         <li className='container1-item'><span>Flooring and Tile Work:</span> Enhance the durability and aesthetics of your kitchen with new flooring and tile options.</li>
                         <li className='container1-item'><span>Lighting Solutions:</span> Improve visibility and ambiance with upgraded lighting fixtures and designs.</li>

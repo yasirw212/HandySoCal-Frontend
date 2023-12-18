@@ -21,13 +21,13 @@ const Renovation = () => {
             <div>
                 <h2>Renovation Services</h2>
                 <br />
-                <p>At Handy SoCal, we specialize in bringing new life to your space through comprehensive renovation services. Our goal is to transform your home or business, and we take pride in providing tailored solutions that cater to your unique needs. Whether it's a small makeover or a complete overhaul, our experienced team has the expertise to make your renovation dreams a reality.</p>
+                <p>At Quintero Construction, we specialize in bringing new life to your space through comprehensive renovation services. Our goal is to transform your home or business, and we take pride in providing tailored solutions that cater to your unique needs. Whether it's a small makeover or a complete overhaul, our experienced team has the expertise to make your renovation dreams a reality.</p>
             </div>
             <Form1 name={'Renovation'} category={'Home Improvement'} />
             <Container1 aos={'fade-up'}>
                 <h3>Why Choose us For Your Renovation Project?</h3>
                 <ul className='container1-items'>
-                    <li className="container1-item"><span>Experience:</span> With [X] years in the industry, we've honed our skills and acquired extensive experience in various renovation projects.</li>
+                    <li className="container1-item"><span>Experience:</span> With 30+ years in the industry, we've honed our skills and acquired extensive experience in various renovation projects.</li>
                     <li className="container1-item"><span>Tailored Solutions:</span> We collaborate closely with you to understand your vision, lifestyle, and budget, ensuring a renovation that aligns perfectly with your needs.</li>
                     <li className="container1-item"><span>Quality Craftsmanship:</span> Our team of skilled craftsmen is dedicated to delivering quality work that stands the test of time.</li>
                     <li className="container1-item"><span>Transparent Process:</span> We maintain open communication, provide detailed quotes, and keep you informed throughout the project.</li>

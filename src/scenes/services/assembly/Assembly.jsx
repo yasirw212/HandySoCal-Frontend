@@ -18,6 +18,7 @@ const Assembly = () => {
         <div className="display1-body">
             <div className="carpentry-intro">
                 <h2>Why Choose Us for Your Assembly Needs?</h2>
+                <br />
                 <p>Whether you have just moved into a new home, relocated your office, or purchased new furniture, our professional furniture assembly services are here to make your life easier. We take the hassle out of assembly, ensuring that your furniture is perfectly assembled, sturdy, and ready to use.</p>
             </div>
             <Form1 name={'Furniture Assembly'} category={'Assembly'} ></Form1>

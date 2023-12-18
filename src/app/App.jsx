@@ -35,6 +35,7 @@ import Fence from '../scenes/services/fence/Fence'
 import Toilet from '../scenes/services/toilet/Toilet'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
+import Concrete from '../scenes/services/concrete/Concrete'
 
 function App() {
   const dispatch = useDispatch()
@@ -65,6 +66,8 @@ React.useEffect(() => {
           <Route path='/about' element={<About />}></Route>
           <Route exact path='/services' element={<Services />}></Route>
           {/* Individual Service Pages */}
+          {/* General Services */}
+          <Route path='/services/GeneralServices/c9a044b3-a8c7-40e3-8b7f-0ce69bed881c' element={<Concrete />} ></Route>
           {/* Home Improvement */}
           <Route path='/services/HomeImprovement/3fa3bcc1-c4c9-4a0f-879a-85f073b7034a' element={<Kitchen />} ></Route>
           <Route path='/services/HomeImprovement/4225baeb-5291-45ad-a683-6ed68df33322' element={<Bathroom />} ></Route>

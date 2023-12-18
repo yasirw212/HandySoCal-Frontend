@@ -21,7 +21,7 @@ const Fence = () => {
             <div className="patio-intro">
                 <h2>Why Choose Us for Your Fence Needs?</h2>
                 <br />
-                <p> we believe that a well-constructed fence not only defines your property but also provides security, privacy, and enhances the aesthetic appeal of your home. Our professional fence installation services are designed to cater to your specific needs, whether you're looking for a classic picket fence, a durable chain-link fence, or a custom-designed fence that complements your landscaping. We are dedicated to ensuring that your fence is not only functional but also built to last.</p>
+                <p> We believe that a well-constructed fence not only defines your property but also provides security, privacy, and enhances the aesthetic appeal of your home. Our professional fence installation services are designed to cater to your specific needs, whether you're looking for a classic picket fence, a durable chain-link fence, or a custom-designed fence that complements your landscaping. We are dedicated to ensuring that your fence is not only functional but also built to last.</p>
             </div>
             <Form1 category={"Home Improvement"} name={'Fence Installation'} />
             <Container1 aos={'fade-up'} >
@@ -29,16 +29,12 @@ const Fence = () => {
                 <ul className="container1-items">
                     <li className="container1-item"><span>Picket Fences:</span> Install traditional picket fences for a timeless and charming look.</li>
                     <li className="container1-item"><span>Privacy Fences:</span> Construct privacy fences to create secluded and tranquil outdoor spaces.</li>
-                    <li className="container1-item"><span>Decorative Wooden Fences: </span> Add decorative elements to your wooden fence for enhanced aesthetics.</li>
-                    <li className="container1-item"><span>Cedar Fences:</span> Choose cedar for its natural resistance to rot and insects, ensuring a long-lasting fence.</li>
                     <li className="container1-item"><span>Custom Wooden Fences:</span> Work with us to design a custom wooden fence that suits your unique style.</li>
                 </ul>
                 <br />
                 <h3>Metal Fences: </h3>
                 <ul className="container1-items">
                    <li className="container1-item"><span>Chain-Link Fences:</span> Install durable chain-link fences for security and containment.</li>
-                   <li className="container1-item"><span>Ornamental Metal Fences:</span> Choose ornamental metal fences for a combination of security and elegance.</li>
-                   <li className="container1-item"><span>Aluminum Fences:</span> Opt for aluminum for its lightweight, rust-resistant, and low-maintenance properties.</li>
                    <li className="container1-item"><span>Wrought Iron Fences:</span> Install wrought iron fences for a timeless and durable fencing solution.</li>
                 </ul>
                 <br />
@@ -47,7 +43,6 @@ const Fence = () => {
                     <li className="container1-item"><span>Vinyl Privacy Fences:</span> Construct vinyl privacy fences for low maintenance and modern aesthetics.</li>
                     <li className="container1-item"><span>Picket Vinyl Fences:</span> Install picket vinyl fences for classic charm and easy care.</li>
                     <li className="container1-item"><span>Vinyl Post and Rail Fences: </span> Opt for vinyl post and rail fences for a semi-private and traditional look.</li>
-                    <li className="container1-item"><span>Scallop-Top Vinyl Fences:</span> Add scallop-top vinyl fences for a touch of elegance.</li>
                 </ul>
             </Container1>
         </div>
