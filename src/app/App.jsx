@@ -67,14 +67,14 @@ React.useEffect(() => {
           <Route exact path='/services' element={<Services />}></Route>
           {/* Individual Service Pages */}
           {/* General Services */}
-          <Route path='/services/GeneralServices/c9a044b3-a8c7-40e3-8b7f-0ce69bed881c' element={<Concrete />} ></Route>
+            <Route path='/services/GeneralServices/c9a044b3-a8c7-40e3-8b7f-0ce69bed881c' element={<Concrete />} ></Route>
+            <Route path='/services/GeneralServices/2534bb59-26ea-45de-a1a1-bd84b803a9f4' element={<Renovation />} ></Route>
+            <Route path='/services/GeneralServices/bc466ced-7865-4a97-b302-cc1e0683c378' element={<Masonry />} ></Route>
+            <Route path='/services/GeneralServices/edf88248-8924-4b18-86c3-3cb2e93bd336' element={<Carpentry />} ></Route>
           {/* Home Improvement */}
           <Route path='/services/HomeImprovement/3fa3bcc1-c4c9-4a0f-879a-85f073b7034a' element={<Kitchen />} ></Route>
           <Route path='/services/HomeImprovement/4225baeb-5291-45ad-a683-6ed68df33322' element={<Bathroom />} ></Route>
-          <Route path='/services/HomeImprovement/2534bb59-26ea-45de-a1a1-bd84b803a9f4' element={<Renovation />} ></Route>
-          <Route path='/services/HomeImprovement/bc466ced-7865-4a97-b302-cc1e0683c378' element={<Masonry />} ></Route>
           <Route path='/services/HomeImprovement/33c60218-a7d4-42cd-991f-efff1c7a6345' element={<Deck />} ></Route>
-          <Route path='/services/HomeImprovement/edf88248-8924-4b18-86c3-3cb2e93bd336' element={<Carpentry />} ></Route>
           <Route path='/services/HomeImprovement/e945dcb0-5850-4921-968c-0a1535ba8391' element={<Patio />} ></Route>
           <Route path='/services/HomeImprovement/d9c71f98-ba14-4a93-9790-bf3b4657d07d' element={<DryWall />} ></Route>
           <Route path='/services/HomeImprovement/720906b2-d295-4c0e-b72c-dea94dfd0be8' element={<Flooring />} ></Route>
