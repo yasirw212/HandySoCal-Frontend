@@ -1,4 +1,3 @@
-import React from 'react'
 import './about.css'
 import california from '../../assets/cali.png'
 import {GiBlackBook} from "react-icons/gi"

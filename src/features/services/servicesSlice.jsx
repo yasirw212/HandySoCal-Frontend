@@ -36,7 +36,7 @@ const options = {
         failedToLoadPopularServices: false 
     },
     extraReducers: {
-        [getServices.pending]: (state, {payload}) => {
+        [getServices.pending]: (state) => {
             state.isLoadingServices = true;
             state.failedToLoadServices = false
         },
@@ -45,11 +45,11 @@ const options = {
             state.services = [...payload]
             state.failedToLoadServices = false
         },
-        [getServices.rejected]: (state, {payload}) => {
+        [getServices.rejected]: (state) => {
             state.isLoadingServices = false;
-            statee.failedToLoadServices = false
+            state.failedToLoadServices = false
         },
-        [getPopularServices.pending]: (state, {payload}) => {
+        [getPopularServices.pending]: (state) => {
             state.isLoadingPopularServices = true
             state.failedToLoadPopularServices = false
         },
@@ -59,7 +59,7 @@ const options = {
             state.popularServices = [...payload]
             state.failedToLoadPopularServices = false
         },
-        [getPopularServices.rejected]: (state, action) => {
+        [getPopularServices.rejected]: (state) => {
             state.isLoadingPopularServices = false,
             state.failedToLoadPopularServices = false
         }

@@ -87,8 +87,8 @@ const Contact = ({toggleForm}) => {
                     <span></span>
                 </div>
                 <div className="contact-information">
-                    <p><FaPhoneAlt style={{marginRight: '.25rem'}} />: (619)-306-5059</p>
-                    <p><GrMail style={{marginRight: '.25rem'}} />: quinteroconstruction@gmail.com</p>
+                    <p><FaPhoneAlt style={{marginRight: '.25rem'}} />: (619)-719-9404</p>
+                    <p><GrMail style={{marginRight: '.25rem'}} />: quintco329@gmail.com</p>
                     <img src={logoIcon} width={30} alt="" />
                 </div>
             </div>

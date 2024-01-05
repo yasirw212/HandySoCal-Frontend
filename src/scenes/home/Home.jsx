@@ -76,7 +76,7 @@ const Home = () => {
         <div data-aos='fade-up' className="contact-section">
             <div className='contact-text'>
                 <h2>Ready to embark on your next project? </h2>
-                <p>Call: (619)-306-6059</p>
+                <p>Call: (619)-719-9404</p>
             </div>
             <img className='phone-img' src={phone} alt="" />
         </div>
